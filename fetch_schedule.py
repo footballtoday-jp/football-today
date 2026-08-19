@@ -13,7 +13,7 @@ if not TOKEN:
 JST = ZoneInfo("Asia/Tokyo")
 today = datetime.now(JST).date()
 date_from = today - timedelta(days=7)
-date_to = today + timedelta(days=30)
+date_to = today + timedelta(days=3)
 
 # Current Free plan coverage used by this first version.
 # Belgium/Europa League are intentionally not requested here because they
