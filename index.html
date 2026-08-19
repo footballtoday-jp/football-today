@@ -96,6 +96,19 @@ header{
   align-items:center;
   gap:10px
 }
+
+.simple-mode .match{
+  grid-template-columns:70px 1fr 1fr;
+}
+
+.simple-mode .league-title{
+  display:none;
+}
+
+.simple-mode .league-tag{
+  display:none;
+}
+  
 .time{
   font-size:16px;
   font-weight:800;
@@ -164,6 +177,7 @@ header{
 <div class="filters">
   <button class="filter active" data-filter="all">すべて</button>
   <button class="filter" data-filter="jp">JP 日本人所属</button>
+  <button class="filter" data-view="simple">簡素表示</button>
 </div>
 
 <main id="matches">
@@ -181,6 +195,7 @@ header{
 let allMatches = [];
 let day = new Date();
 let filter = "all";
+let viewMode = "normal";
 
 const dayNames = ["日","月","火","水","木","金","土"];
 
@@ -207,6 +222,8 @@ function render(){
   const key = dateKey(day);
   const main = document.getElementById("matches");
 
+  main.className = viewMode === "simple" ? "simple-mode" : "";
+  
   main.innerHTML = "";
 
   let games = allMatches.filter(m => m.dateJst === key);
@@ -243,11 +260,14 @@ function render(){
       section.className = "league";
 
       const title = document.createElement("div");
-      title.className = "league-title";
-      title.textContent = league;
+     title.className = "league-title";
+     title.textContent = league;
 
-      section.appendChild(title);
-      main.appendChild(section);
+if(viewMode !== "simple"){
+  section.appendChild(title);
+}
+
+main.appendChild(section);
     }
 
     const section =
@@ -267,7 +287,9 @@ function render(){
     homeTag.className = "league-tag";
     homeTag.textContent = league;
 
-    home.appendChild(homeTag);
+if(viewMode !== "simple"){
+  home.appendChild(homeTag);
+}
 
     const homeName = document.createElement("div");
     homeName.textContent = g.homeNameJa || "";
@@ -284,11 +306,12 @@ function render(){
     away.className = "team";
 
     const awayTag = document.createElement("span");
-    awayTag.className = "league-tag";
-    awayTag.textContent = league;
+   awayTag.className = "league-tag";
+   awayTag.textContent = league;
 
-    away.appendChild(awayTag);
-
+if(viewMode !== "simple"){
+   away.appendChild(awayTag);
+}
     const awayName = document.createElement("div");
     awayName.textContent = g.awayNameJa || "";
     away.appendChild(awayName);
@@ -355,7 +378,12 @@ document.querySelectorAll(".filter").forEach(button => {
 
     button.classList.add("active");
 
-    filter = button.dataset.filter;
+    if(button.dataset.view){
+      viewMode = button.dataset.view;
+    }else{
+      filter = button.dataset.filter;
+      viewMode = "normal";
+    }
 
     render();
   };
