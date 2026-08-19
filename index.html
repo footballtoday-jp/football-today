@@ -7,42 +7,31 @@
 <title>FOOTBALL TODAY</title>
 
 <style>
-*{
-  box-sizing:border-box;
-}
+*{box-sizing:border-box}
 
-html,body{
+body{
   margin:0;
-  padding:0;
   background:#f6f6f4;
   color:#171717;
   font-family:Arial,"Noto Sans JP",sans-serif;
-}
-
-body{
-  overflow-x:hidden;
 }
 
 .wrap{
   width:100%;
   max-width:1500px;
   margin:0 auto;
-  padding:18px 14px 40px;
+  padding:24px 16px 50px;
 }
-
-/* =========================
-   HEADER
-========================= */
 
 header{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:14px;
+  margin-bottom:20px;
 }
 
 .logo{
-  font-size:21px;
+  font-size:22px;
   font-weight:800;
   letter-spacing:.04em;
 }
@@ -52,23 +41,19 @@ header{
   color:#777;
 }
 
-/* =========================
-   DATE
-========================= */
-
 .datebar{
-  display:grid;
-  grid-template-columns:100px 1fr 100px;
+  display:flex;
   align-items:center;
+  justify-content:space-between;
   background:#fff;
   border:1px solid #ddd;
   border-radius:12px;
-  padding:8px 10px;
+  padding:10px 16px;
   margin-bottom:10px;
 }
 
 .date{
-  font-size:23px;
+  font-size:25px;
   font-weight:800;
   text-align:center;
 }
@@ -79,32 +64,24 @@ header{
   font-size:13px;
   cursor:pointer;
   color:#555;
-  padding:7px;
+  padding:7px 10px;
 }
-
-.nav:last-child{
-  text-align:right;
-}
-
-/* =========================
-   FILTER
-========================= */
 
 .filters{
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
+  display:flex;
   gap:8px;
   margin-bottom:12px;
 }
 
 .filter{
-  border:1px solid #d8d8d8;
+  flex:1;
+  border:1px solid #ddd;
   background:#fff;
   border-radius:9px;
-  padding:9px 6px;
+  padding:10px;
   cursor:pointer;
   font-weight:700;
-  font-size:12px;
+  font-size:13px;
 }
 
 .filter.active{
@@ -113,185 +90,169 @@ header{
   border-color:#171717;
 }
 
-/* =========================
-   DESKTOP TABLE
-========================= */
+/* PC table */
+
+.table-wrap{
+  width:100%;
+  overflow-x:auto;
+  background:#fff;
+  border:1px solid #d5d5d5;
+}
 
 .schedule-table{
   width:100%;
   border-collapse:collapse;
   table-layout:fixed;
-  background:#fff;
-  border:1px solid #ccc;
   font-size:12px;
 }
 
 .schedule-table th,
 .schedule-table td{
   border:1px solid #d5d5d5;
-  padding:5px 7px;
+  padding:6px 7px;
   height:34px;
   vertical-align:middle;
 }
 
 .schedule-table th{
-  background:#f1f1ef;
+  background:#f1f1f1;
   text-align:center;
+  font-weight:800;
   font-size:11px;
-  font-weight:800;
 }
 
-.schedule-table .date-col{
-  width:105px;
-  text-align:center;
-  font-weight:800;
-}
-
-.schedule-table .time-col{
-  width:90px;
-  text-align:center;
-  font-weight:800;
-}
-
-.schedule-table .league-col{
-  width:130px;
-  color:#777;
-  font-size:9px;
-}
-
-.schedule-table .team-col{
-  font-weight:700;
-}
-
-.schedule-table .jp-col{
+.schedule-table th:nth-child(1){
   width:115px;
+}
+
+.schedule-table th:nth-child(2){
+  width:75px;
+}
+
+.schedule-table th:nth-child(3){
+  width:130px;
+}
+
+.schedule-table th:nth-child(4),
+.schedule-table th:nth-child(6){
+  width:20%;
+}
+
+.schedule-table th:nth-child(5),
+.schedule-table th:nth-child(7){
+  width:13%;
+}
+
+.date-cell{
+  text-align:center;
+  font-weight:800;
+  white-space:nowrap;
+}
+
+.time-cell{
+  text-align:center;
+  font-weight:800;
+  white-space:nowrap;
+}
+
+.league-cell{
+  font-size:9px;
+  color:#888;
+}
+
+.team-cell{
+  font-weight:700;
+  line-height:1.2;
+}
+
+.jp-cell{
   color:#16734a;
   font-size:10px;
   font-weight:700;
+  line-height:1.25;
 }
 
-.schedule-table tr.day-start td{
-  border-top:2px solid #bdbdbd;
+.day-start td{
+  border-top:2px solid #c5c5c5;
 }
 
-.schedule-table tr.league-start td{
-  border-top:1px solid #cfcfcf;
+.day-start .date-cell{
+  background:#fafafa;
 }
 
-/* =========================
-   MOBILE CARD
-========================= */
+/* Mobile cards */
 
 .mobile-list{
   display:none;
 }
 
 .mobile-day{
-  margin-top:12px;
+  margin-bottom:14px;
 }
 
-.mobile-day-title{
+.mobile-date{
   font-size:13px;
   font-weight:800;
-  padding:5px 4px;
-  border-bottom:1px solid #d0d0d0;
-}
-
-.mobile-league{
-  margin-top:7px;
-}
-
-.mobile-league-title{
-  font-size:9px;
-  color:#777;
-  font-weight:700;
-  padding:3px 4px;
+  color:#666;
+  padding:5px 2px;
+  border-bottom:1px solid #ddd;
+  margin-bottom:5px;
 }
 
 .mobile-match{
   background:#fff;
   border:1px solid #ddd;
   border-radius:9px;
+  padding:9px 10px;
   margin-bottom:5px;
-  padding:6px 8px;
 }
 
 .mobile-time{
-  font-size:12px;
+  font-size:13px;
   font-weight:800;
-  margin-bottom:3px;
+  margin-bottom:5px;
 }
 
 .mobile-teams{
   display:grid;
-  grid-template-columns:minmax(0,1fr) 25px minmax(0,1fr);
+  grid-template-columns:1fr 28px 1fr;
   align-items:center;
-  gap:3px;
+  gap:4px;
 }
 
 .mobile-team{
-  min-width:0;
   text-align:center;
-  font-size:11px;
+  font-size:12px;
   line-height:1.25;
-  word-break:break-word;
 }
 
 .mobile-vs{
   text-align:center;
   color:#999;
-  font-size:9px;
+  font-size:10px;
 }
 
 .mobile-jp{
   display:block;
-  margin-top:2px;
   color:#16734a;
   font-size:9px;
   font-weight:700;
+  margin-top:3px;
 }
 
-.mobile-simple .mobile-league-title{
-  display:none;
+.mobile-league{
+  font-size:9px;
+  color:#888;
+  margin-bottom:4px;
 }
-
-.mobile-simple .mobile-match{
-  padding:5px 7px;
-  margin-bottom:3px;
-}
-
-.mobile-simple .mobile-time{
-  font-size:11px;
-  margin-bottom:2px;
-}
-
-.mobile-simple .mobile-team{
-  font-size:10px;
-}
-
-.mobile-simple .mobile-jp{
-  font-size:8px;
-}
-
-/* =========================
-   EMPTY / NOTE
-========================= */
 
 .empty{
   background:#fff;
-  border:1px dashed #ccc;
+  border:1px dashed #ddd;
   border-radius:10px;
-  padding:25px 15px;
+  padding:25px;
   text-align:center;
   color:#777;
-  font-size:12px;
-}
-
-.note{
-  font-size:10px;
-  color:#777;
-  line-height:1.6;
-  margin-top:18px;
 }
 
 .status{
@@ -300,22 +261,60 @@ header{
   padding:25px 10px;
 }
 
-/* =========================
-   MOBILE
-========================= */
+.note{
+  font-size:10px;
+  color:#777;
+  line-height:1.7;
+  margin-top:16px;
+}
+
+/* Simple mode */
+
+.simple-mode .league-cell{
+  display:none;
+}
+
+.simple-mode .schedule-table th:nth-child(3){
+  display:none;
+}
+
+.simple-mode .schedule-table th:nth-child(1){
+  width:100px;
+}
+
+.simple-mode .schedule-table th:nth-child(2){
+  width:70px;
+}
+
+.simple-mode .schedule-table th:nth-child(4),
+.simple-mode .schedule-table th:nth-child(6){
+  width:27%;
+}
+
+.simple-mode .schedule-table th:nth-child(5),
+.simple-mode .schedule-table th:nth-child(7){
+  width:13%;
+}
+
+.simple-mode .mobile-league{
+  display:none;
+}
+
+
+/* Smartphone */
 
 @media(max-width:700px){
 
   .wrap{
-    padding:10px 8px 25px;
+    padding:14px 8px 35px;
   }
 
   header{
-    margin-bottom:8px;
+    margin-bottom:12px;
   }
 
   .logo{
-    font-size:17px;
+    font-size:19px;
   }
 
   .sub{
@@ -323,20 +322,17 @@ header{
   }
 
   .datebar{
-    grid-template-columns:60px 1fr 60px;
-    padding:6px 7px;
-    margin-bottom:8px;
+    padding:8px 9px;
     border-radius:10px;
   }
 
   .date{
-    font-size:18px;
-    white-space:nowrap;
+    font-size:20px;
   }
 
   .nav{
     font-size:11px;
-    padding:5px 2px;
+    padding:6px 4px;
   }
 
   .filters{
@@ -345,19 +341,55 @@ header{
   }
 
   .filter{
-    padding:8px 3px;
-    font-size:10px;
+    padding:8px 4px;
+    font-size:11px;
     border-radius:8px;
   }
 
-  /* PC tableをスマホでは隠す */
-  .schedule-table{
+  /* PC表をスマホではカードに切り替える */
+
+  .table-wrap{
     display:none;
   }
 
-  /* スマホはカード表示 */
   .mobile-list{
     display:block;
+  }
+
+  .mobile-day{
+    margin-bottom:12px;
+  }
+
+  .mobile-date{
+    font-size:12px;
+    padding:4px 2px;
+  }
+
+  .mobile-match{
+    padding:8px 9px;
+    border-radius:8px;
+    margin-bottom:4px;
+  }
+
+  .mobile-time{
+    font-size:12px;
+    margin-bottom:4px;
+  }
+
+  .mobile-team{
+    font-size:11px;
+  }
+
+  .mobile-jp{
+    font-size:9px;
+  }
+
+  .mobile-vs{
+    font-size:9px;
+  }
+
+  .mobile-league{
+    font-size:8px;
   }
 
   .note{
@@ -366,30 +398,25 @@ header{
   }
 }
 
-/* =========================
-   VERY SMALL PHONE
-========================= */
+
+/* Very small smartphone */
 
 @media(max-width:380px){
 
   .date{
-    font-size:16px;
-  }
-
-  .nav{
-    font-size:10px;
+    font-size:18px;
   }
 
   .mobile-team{
     font-size:10px;
   }
 
-  .mobile-jp{
-    font-size:8px;
+  .mobile-teams{
+    grid-template-columns:1fr 22px 1fr;
   }
 
   .filter{
-    font-size:9px;
+    font-size:10px;
   }
 }
 </style>
@@ -404,24 +431,47 @@ header{
     <div class="logo">FOOTBALL TODAY</div>
     <div class="sub">海外サッカーを日本時間で</div>
   </div>
+
   <div class="sub">JP 日本人選手</div>
 </header>
 
+
 <div class="datebar">
-  <button class="nav" id="prev">← 前日</button>
-  <div class="date" id="date">読み込み中</div>
-  <button class="nav" id="next">翌日 →</button>
+  <button class="nav" id="prev">← 前の10日間</button>
+
+  <div class="date" id="date">
+    今後10日間
+  </div>
+
+  <button class="nav" id="next">次の10日間 →</button>
 </div>
+
 
 <div class="filters">
-  <button class="filter active" data-filter="all">すべて</button>
-  <button class="filter" data-filter="jp">JP 日本人所属</button>
-  <button class="filter" data-view="simple">簡素表示</button>
+
+  <button class="filter active" data-filter="all">
+    すべて
+  </button>
+
+  <button class="filter" data-filter="jp">
+    JP 日本人所属
+  </button>
+
+  <button class="filter" data-view="simple">
+    簡素表示
+  </button>
+
 </div>
 
+
 <main id="matches">
-  <div class="status">試合日程を読み込んでいます…</div>
+
+  <div class="status">
+    試合日程を読み込んでいます…
+  </div>
+
 </main>
+
 
 <div class="note">
   ※ このサイトはネタバレ防止のため、スコア・勝敗・試合結果は表示しません。
@@ -430,65 +480,141 @@ header{
 
 </div>
 
+
 <script>
 
 let allMatches = [];
-let day = new Date();
+
+let startDay = new Date();
+
 let filter = "all";
+
 let viewMode = "normal";
 
-const dayNames = ["日","月","火","水","木","金","土"];
+const DAY_COUNT = 10;
 
-/* =========================
-   DATE FUNCTIONS
-========================= */
+const dayNames = [
+  "日",
+  "月",
+  "火",
+  "水",
+  "木",
+  "金",
+  "土"
+];
 
-function formatDate(d){
-  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${dayNames[d.getDay()]}）`;
-}
+
+/* 日付を YYYY-MM-DD にする */
 
 function dateKey(d){
+
   const y = d.getFullYear();
-  const m = String(d.getMonth()+1).padStart(2,"0");
-  const day = String(d.getDate()).padStart(2,"0");
+
+  const m = String(
+    d.getMonth()+1
+  ).padStart(2,"0");
+
+  const day = String(
+    d.getDate()
+  ).padStart(2,"0");
 
   return `${y}-${m}-${day}`;
 }
 
-/*
-  25:00 → 01:00 のような表記が
-  データに残っている場合も表示上は統一
-*/
+
+/* 日付表示 */
+
+function formatDate(d){
+
+  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${dayNames[d.getDay()]}）`;
+
+}
+
+
+/* 時刻を24時間表記に統一 */
+
 function displayTime(time){
 
-  if(!time) return "";
+  if(!time){
+    return "";
+  }
 
-  const match = String(time).match(/^(\d{1,2}):(\d{2})$/);
+  const match = String(time).match(
+    /^(\d{1,2}):(\d{2})$/
+  );
 
   if(!match){
     return time;
   }
 
   let hour = Number(match[1]);
+
   const minute = match[2];
+
+  /*
+    25:00 → 01:00
+    26:30 → 02:30
+    24:00 → 00:00
+  */
 
   if(hour >= 24){
     hour = hour - 24;
   }
 
-  return `${String(hour).padStart(2,"0")}:${minute}`;
+  return String(hour).padStart(2,"0") + ":" + minute;
+
 }
 
-/* =========================
-   MAIN RENDER
-========================= */
 
-function render(){
+/* 日本人選手 */
 
-  document.getElementById("date").textContent = formatDate(day);
+function jpText(players){
 
-  const key = dateKey(day);
-  const main = document.getElementById("matches");
+  if(!players || !players.length){
+    return "";
+  }
+
+  return players.join("・");
+
+}
+
+
+/* 表示期間を作る */
+
+function getDateList(){
+
+  const list = [];
+
+  for(let i=0; i<DAY_COUNT; i++){
+
+    const d = new Date(startDay);
+
+    d.setDate(
+      startDay.getDate() + i
+    );
+
+    list.push(d);
+
+  }
+
+  return list;
+
+}
+
+
+/* 10日間の日付タイトル */
+
+function updateDateTitle(){
+
+  document.getElementById("date").textContent =
+    "今後10日間";
+
+}
+
+
+/* 試合を取得 */
+
+function getGamesForDay(key){
 
   let games = allMatches.filter(
     m => m.dateJst === key
@@ -504,304 +630,255 @@ function render(){
   }
 
   games.sort((a,b) =>
-    String(a.timeJst || "").localeCompare(
-      String(b.timeJst || "")
-    )
+    String(a.timeJst || "")
+      .localeCompare(
+        String(b.timeJst || "")
+      )
   );
 
-  if(!games.length){
+  return games;
 
-    main.innerHTML =
-      '<div class="empty">この日の対象試合はありません。</div>';
-
-    return;
-  }
-
-  renderDesktop(games);
-  renderMobile(games);
 }
 
-/* =========================
-   DESKTOP
-========================= */
 
-function renderDesktop(games){
+/* PC表 */
 
-  const main = document.getElementById("matches");
+function renderTable(){
 
-  const table = document.createElement("table");
-  table.className = "schedule-table";
+  const dates = getDateList();
 
-  table.innerHTML = `
+  let html = "";
+
+  html += '<div class="table-wrap">';
+
+  html += '<table class="schedule-table">';
+
+  html += `
     <thead>
       <tr>
-        <th class="date-col">日付</th>
-        <th class="time-col">時刻</th>
-        <th class="league-col">リーグ</th>
+        <th>日付</th>
+        <th>時刻</th>
+        <th>リーグ</th>
         <th>ホーム</th>
-        <th class="jp-col">日本人</th>
+        <th>日本人</th>
         <th>アウェイ</th>
-        <th class="jp-col">日本人</th>
+        <th>日本人</th>
       </tr>
     </thead>
   `;
 
-  const tbody = document.createElement("tbody");
+  html += "<tbody>";
 
-  let previousDate = "";
-  let previousLeague = "";
+  let total = 0;
 
-  games.forEach(g => {
+  dates.forEach((d,index) => {
 
-    const tr = document.createElement("tr");
+    const key = dateKey(d);
 
-    if(g.dateJst !== previousDate){
-      tr.classList.add("day-start");
-      previousDate = g.dateJst;
-      previousLeague = "";
+    const games = getGamesForDay(key);
+
+    if(!games.length){
+      return;
     }
 
-    if(g.league !== previousLeague){
-      tr.classList.add("league-start");
-      previousLeague = g.league;
-    }
+    games.forEach((g,gameIndex) => {
 
-    const homeJp =
-      g.homeJp && g.homeJp.length
-        ? g.homeJp.join("・")
-        : "";
+      total++;
 
-    const awayJp =
-      g.awayJp && g.awayJp.length
-        ? g.awayJp.join("・")
-        : "";
+      const dateLabel =
+        `${d.getMonth()+1}/${d.getDate()}（${dayNames[d.getDay()]}）`;
 
-    tr.innerHTML = `
-      <td class="date-col">
-        ${g.dateJst === previousDate
-          ? formatTableDate(g.dateJst)
-          : ""}
-      </td>
+      html += `
+        <tr class="${gameIndex === 0 ? "day-start" : ""}">
 
-      <td class="time-col">
-        ${displayTime(g.timeJst)}
-      </td>
+          <td class="date-cell">
+            ${gameIndex === 0 ? dateLabel : ""}
+          </td>
 
-      <td class="league-col">
-        ${g.league || "その他"}
-      </td>
+          <td class="time-cell">
+            ${displayTime(g.timeJst)}
+          </td>
 
-      <td class="team-col">
-        ${g.homeNameJa || ""}
-      </td>
+          <td class="league-cell">
+            ${g.league || ""}
+          </td>
 
-      <td class="jp-col">
-        ${homeJp}
-      </td>
+          <td class="team-cell">
+            ${g.homeNameJa || ""}
+          </td>
 
-      <td class="team-col">
-        ${g.awayNameJa || ""}
-      </td>
+          <td class="jp-cell">
+            ${jpText(g.homeJp)}
+          </td>
 
-      <td class="jp-col">
-        ${awayJp}
-      </td>
+          <td class="team-cell">
+            ${g.awayNameJa || ""}
+          </td>
+
+          <td class="jp-cell">
+            ${jpText(g.awayJp)}
+          </td>
+
+        </tr>
+      `;
+
+    });
+
+  });
+
+  html += "</tbody>";
+  html += "</table>";
+  html += "</div>";
+
+  if(!total){
+
+    return `
+      <div class="empty">
+        この10日間の対象試合はありません。
+      </div>
     `;
 
-    tbody.appendChild(tr);
-  });
-
-  table.appendChild(tbody);
-
-  main.innerHTML = "";
-  main.appendChild(table);
-}
-
-/* =========================
-   TABLE DATE
-========================= */
-
-function formatTableDate(key){
-
-  const parts = key.split("-");
-
-  if(parts.length !== 3){
-    return key;
   }
 
-  const y = Number(parts[0]);
-  const m = Number(parts[1])-1;
-  const d = Number(parts[2]);
+  return html;
 
-  const date = new Date(y,m,d);
-
-  return `${m+1}/${d}（${dayNames[date.getDay()]}）`;
 }
 
-/* =========================
-   MOBILE
-========================= */
 
-function renderMobile(games){
+/* スマホカード */
 
-  const main = document.getElementById("matches");
+function renderMobile(){
 
-  const mobile =
-    document.createElement("div");
+  const dates = getDateList();
 
-  mobile.className =
-    viewMode === "simple"
-      ? "mobile-list mobile-simple"
-      : "mobile-list";
+  let html = '<div class="mobile-list">';
 
-  let currentLeague = "";
+  let total = 0;
 
-  const daySection =
-    document.createElement("section");
+  dates.forEach(d => {
 
-  daySection.className = "mobile-day";
+    const key = dateKey(d);
 
-  const dayTitle =
-    document.createElement("div");
+    const games = getGamesForDay(key);
 
-  dayTitle.className =
-    "mobile-day-title";
-
-  dayTitle.textContent =
-    formatDate(day);
-
-  daySection.appendChild(dayTitle);
-
-  games.forEach(g => {
-
-    const league =
-      g.league || "その他";
-
-    if(league !== currentLeague){
-
-      currentLeague = league;
-
-      const leagueBlock =
-        document.createElement("div");
-
-      leagueBlock.className =
-        "mobile-league";
-
-      const leagueTitle =
-        document.createElement("div");
-
-      leagueTitle.className =
-        "mobile-league-title";
-
-      leagueTitle.textContent =
-        league;
-
-      leagueBlock.appendChild(
-        leagueTitle
-      );
-
-      daySection.appendChild(
-        leagueBlock
-      );
+    if(!games.length){
+      return;
     }
 
-    const leagueBlock =
-      daySection.lastElementChild;
+    total += games.length;
 
-    const card =
-      document.createElement("div");
+    const dateLabel =
+      `${d.getMonth()+1}/${d.getDate()}（${dayNames[d.getDay()]}）`;
 
-    card.className =
-      "mobile-match";
+    html += `
+      <section class="mobile-day">
 
-    const time =
-      document.createElement("div");
+        <div class="mobile-date">
+          ${dateLabel}
+        </div>
+    `;
 
-    time.className =
-      "mobile-time";
 
-    time.textContent =
-      displayTime(g.timeJst);
+    games.forEach(g => {
 
-    const teams =
-      document.createElement("div");
+      html += `
 
-    teams.className =
-      "mobile-teams";
+        <div class="mobile-match">
 
-    const home =
-      document.createElement("div");
+          <div class="mobile-league">
+            ${g.league || ""}
+          </div>
 
-    home.className =
-      "mobile-team";
+          <div class="mobile-time">
+            ${displayTime(g.timeJst)}
+          </div>
 
-    home.textContent =
-      g.homeNameJa || "";
+          <div class="mobile-teams">
 
-    if(g.homeJp && g.homeJp.length){
+            <div class="mobile-team">
 
-      const jp =
-        document.createElement("span");
+              ${g.homeNameJa || ""}
 
-      jp.className =
-        "mobile-jp";
+              ${
+                g.homeJp && g.homeJp.length
+                ? `<span class="mobile-jp">${jpText(g.homeJp)}</span>`
+                : ""
+              }
 
-      jp.textContent =
-        g.homeJp.join("・");
+            </div>
 
-      home.appendChild(jp);
-    }
+            <div class="mobile-vs">
+              VS
+            </div>
 
-    const vs =
-      document.createElement("div");
+            <div class="mobile-team">
 
-    vs.className =
-      "mobile-vs";
+              ${g.awayNameJa || ""}
 
-    vs.textContent =
-      "vs";
+              ${
+                g.awayJp && g.awayJp.length
+                ? `<span class="mobile-jp">${jpText(g.awayJp)}</span>`
+                : ""
+              }
 
-    const away =
-      document.createElement("div");
+            </div>
 
-    away.className =
-      "mobile-team";
+          </div>
 
-    away.textContent =
-      g.awayNameJa || "";
+        </div>
 
-    if(g.awayJp && g.awayJp.length){
+      `;
 
-      const jp =
-        document.createElement("span");
+    });
 
-      jp.className =
-        "mobile-jp";
+    html += "</section>";
 
-      jp.textContent =
-        g.awayJp.join("・");
-
-      away.appendChild(jp);
-    }
-
-    teams.appendChild(home);
-    teams.appendChild(vs);
-    teams.appendChild(away);
-
-    card.appendChild(time);
-    card.appendChild(teams);
-
-    leagueBlock.appendChild(card);
   });
 
-  mobile.appendChild(daySection);
+  html += "</div>";
 
-  main.appendChild(mobile);
+  if(!total){
+
+    return `
+      <div class="empty">
+        この10日間の対象試合はありません。
+      </div>
+    `;
+
+  }
+
+  return html;
+
 }
 
-/* =========================
-   LOAD SCHEDULE
-========================= */
+
+/* 全体描画 */
+
+function render(){
+
+  updateDateTitle();
+
+  const main =
+    document.getElementById("matches");
+
+  if(viewMode === "simple"){
+
+    main.className = "simple-mode";
+
+  }else{
+
+    main.className = "";
+
+  }
+
+  main.innerHTML =
+    renderTable() +
+    renderMobile();
+
+}
+
+
+/* データ読み込み */
 
 async function loadSchedule(){
 
@@ -810,23 +887,36 @@ async function loadSchedule(){
 
   try{
 
-    const response =
-      await fetch(
-        "./schedule.json?v=" + Date.now(),
-        {
-          cache:"no-store"
-        }
-      );
+    const response = await fetch(
+      "./schedule.json?v=" + Date.now(),
+      {
+        cache:"no-store"
+      }
+    );
 
     if(!response.ok){
 
       throw new Error(
         "schedule.json の読み込みに失敗しました"
       );
+
     }
 
     allMatches =
       await response.json();
+
+    /*
+      今日を10日間表示の開始日にする
+    */
+
+    const today =
+      new Date();
+
+    today.setHours(
+      0,0,0,0
+    );
+
+    startDay = today;
 
     render();
 
@@ -836,34 +926,39 @@ async function loadSchedule(){
 
     main.innerHTML =
       '<div class="empty">試合日程を読み込めませんでした。</div>';
+
   }
+
 }
 
-/* =========================
-   DATE BUTTONS
-========================= */
+
+/* 前の10日間 */
 
 document.getElementById("prev").onclick = () => {
 
-  day.setDate(
-    day.getDate() - 1
+  startDay.setDate(
+    startDay.getDate() - DAY_COUNT
   );
 
   render();
+
 };
+
+
+/* 次の10日間 */
 
 document.getElementById("next").onclick = () => {
 
-  day.setDate(
-    day.getDate() + 1
+  startDay.setDate(
+    startDay.getDate() + DAY_COUNT
   );
 
   render();
+
 };
 
-/* =========================
-   FILTER BUTTONS
-========================= */
+
+/* フィルター */
 
 document.querySelectorAll(".filter")
 .forEach(button => {
@@ -878,31 +973,28 @@ document.querySelectorAll(".filter")
 
     button.classList.add("active");
 
+
     if(button.dataset.view){
 
       viewMode =
         button.dataset.view;
-
-      /*
-        簡素表示では
-        JPフィルターを解除して
-        全試合を表示
-      */
-
-      filter = "all";
 
     }else{
 
       filter =
         button.dataset.filter;
 
-      viewMode = "normal";
+      viewMode =
+        "normal";
+
     }
 
     render();
+
   };
 
 });
+
 
 loadSchedule();
 
