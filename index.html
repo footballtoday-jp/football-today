@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="ja">
 <head>
@@ -7,32 +8,38 @@
 
 <style>
 *{box-sizing:border-box}
+
 body{
   margin:0;
   background:#f6f6f4;
   color:#171717;
   font-family:Arial,"Noto Sans JP",sans-serif
 }
+
 .wrap{
   max-width:760px;
   margin:0 auto;
   padding:28px 18px 60px
 }
+
 header{
   display:flex;
   justify-content:space-between;
   align-items:center;
   margin-bottom:28px
 }
+
 .logo{
   font-size:20px;
   font-weight:800;
   letter-spacing:.04em
 }
+
 .sub{
   font-size:12px;
   color:#777
 }
+
 .datebar{
   display:flex;
   align-items:center;
@@ -43,11 +50,13 @@ header{
   padding:12px 14px;
   margin-bottom:14px
 }
+
 .date{
   font-size:24px;
   font-weight:800;
   text-align:center
 }
+
 .nav{
   border:0;
   background:0;
@@ -56,11 +65,13 @@ header{
   color:#555;
   padding:8px
 }
+
 .filters{
   display:flex;
   gap:8px;
   margin-bottom:22px
 }
+
 .filter{
   flex:1;
   border:1px solid #ddd;
@@ -70,14 +81,21 @@ header{
   cursor:pointer;
   font-weight:700
 }
+
 .filter.active{
   background:#171717;
   color:#fff;
   border-color:#171717
 }
+
+/* =========================
+   通常表示
+   ========================= */
+
 .league{
   margin:22px 0 0
 }
+
 .league-title{
   font-size:13px;
   font-weight:800;
@@ -85,6 +103,7 @@ header{
   margin:0 0 8px;
   padding-left:2px
 }
+
 .match{
   background:#fff;
   border:1px solid #e5e5e5;
@@ -97,29 +116,19 @@ header{
   gap:10px
 }
 
-.simple-mode .match{
-  grid-template-columns:70px 1fr 1fr;
-}
-
-.simple-mode .league-title{
-  display:none;
-}
-
-.simple-mode .league-tag{
-  display:none;
-}
-  
 .time{
   font-size:16px;
   font-weight:800;
   align-self:start;
   padding-top:4px
 }
+
 .team{
   text-align:center;
   font-size:14px;
   line-height:1.35
 }
+
 .league-tag{
   display:block;
   font-size:9px;
@@ -127,6 +136,7 @@ header{
   font-weight:600;
   margin-bottom:4px
 }
+
 .jp{
   display:block;
   font-size:11px;
@@ -134,6 +144,102 @@ header{
   font-weight:700;
   margin-top:4px
 }
+
+/* =========================
+   10日間一覧表示
+   ========================= */
+
+.table-mode{
+  max-width:none;
+  width:100%;
+}
+
+.table-wrap{
+  width:100%;
+  overflow-x:auto;
+  background:#fff;
+  border:1px solid #dcdcdc;
+  -webkit-overflow-scrolling:touch;
+}
+
+.schedule-table{
+  width:100%;
+  min-width:760px;
+  border-collapse:collapse;
+  table-layout:fixed;
+  font-size:11px;
+}
+
+.schedule-table th{
+  background:#f1f1ef;
+  border:1px solid #d8d8d8;
+  padding:6px 5px;
+  font-size:10px;
+  font-weight:800;
+  white-space:nowrap;
+  text-align:center;
+}
+
+.schedule-table td{
+  border:1px solid #dedede;
+  padding:4px 5px;
+  height:30px;
+  line-height:1.2;
+  vertical-align:middle;
+}
+
+.schedule-table .date-cell{
+  width:82px;
+  font-weight:800;
+  text-align:center;
+  white-space:nowrap;
+  background:#fafaf8;
+}
+
+.schedule-table .time-cell{
+  width:58px;
+  font-weight:700;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.schedule-table .league-cell{
+  width:105px;
+  color:#777;
+  font-size:9px;
+  white-space:nowrap;
+}
+
+.schedule-table .team-cell{
+  width:180px;
+  font-weight:600;
+}
+
+.schedule-table .jp-cell{
+  width:105px;
+  color:#16734a;
+  font-weight:700;
+  font-size:10px;
+}
+
+.schedule-table .date-start td{
+  border-top:2px solid #cfcfcf;
+}
+
+body.table-active .wrap{
+  max-width:1400px;
+  padding-left:12px;
+  padding-right:12px;
+}
+
+body.table-active .datebar{
+  max-width:none;
+}
+
+/* =========================
+   空表示・注記
+   ========================= */
+
 .empty{
   background:#fff;
   border:1px dashed #ddd;
@@ -142,16 +248,57 @@ header{
   text-align:center;
   color:#777
 }
+
 .note{
   font-size:11px;
   color:#777;
   line-height:1.7;
   margin-top:24px
 }
+
 .status{
   text-align:center;
   color:#777;
   padding:30px 10px
+}
+
+/* =========================
+   スマホ
+   ========================= */
+
+@media(max-width:700px){
+
+  body.table-active .wrap{
+    padding-left:6px;
+    padding-right:6px;
+  }
+
+  .table-wrap{
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .schedule-table{
+    min-width:760px;
+  }
+
+  .schedule-table th{
+    font-size:9px;
+    padding:5px 4px;
+  }
+
+  .schedule-table td{
+    font-size:10px;
+    padding:4px;
+  }
+
+  .schedule-table .team-cell{
+    width:165px;
+  }
+
+  .schedule-table .jp-cell{
+    width:100px;
+  }
 }
 </style>
 </head>
@@ -177,7 +324,7 @@ header{
 <div class="filters">
   <button class="filter active" data-filter="all">すべて</button>
   <button class="filter" data-filter="jp">JP 日本人所属</button>
-  <button class="filter" data-view="simple">簡素表示</button>
+  <button class="filter" data-view="table">簡素表示</button>
 </div>
 
 <main id="matches">
@@ -192,6 +339,7 @@ header{
 </div>
 
 <script>
+
 let allMatches = [];
 let day = new Date();
 let filter = "all";
@@ -207,28 +355,77 @@ function dateKey(d){
   const y = d.getFullYear();
   const m = String(d.getMonth()+1).padStart(2,"0");
   const day = String(d.getDate()).padStart(2,"0");
+
   return `${y}-${m}-${day}`;
 }
 
+/* 25:30 → 01:30 のように24時間表記へ統一 */
 function displayTime(time){
+
   if(!time) return "";
-  return time;
+
+  const match =
+    String(time).match(/^(\d{1,2}):(\d{2})$/);
+
+  if(!match) return time;
+
+  let hour = Number(match[1]);
+
+  const minute = match[2];
+
+  if(hour >= 24){
+    hour = hour - 24;
+  }
+
+  return `${String(hour).padStart(2,"0")}:${minute}`;
 }
 
-function render(){
+/* 今日から10日間の日付 */
+function getTableDates(){
 
-  document.getElementById("date").textContent = formatDate(day);
+  const dates = [];
 
-  const key = dateKey(day);
-  const main = document.getElementById("matches");
+  const start = new Date();
 
-  main.className = viewMode === "simple" ? "simple-mode" : "";
-  
+  start.setHours(0,0,0,0);
+
+  for(let i=0;i<10;i++){
+
+    const d = new Date(start);
+
+    d.setDate(start.getDate()+i);
+
+    dates.push(d);
+  }
+
+  return dates;
+}
+
+/* =========================
+   通常表示
+   ========================= */
+
+function renderNormal(){
+
+  document.body.classList.remove("table-active");
+
+  document.getElementById("date").textContent =
+    formatDate(day);
+
+  const main =
+    document.getElementById("matches");
+
+  main.className = "";
+
   main.innerHTML = "";
 
-  let games = allMatches.filter(m => m.dateJst === key);
+  const key = dateKey(day);
+
+  let games =
+    allMatches.filter(m => m.dateJst === key);
 
   if(filter === "jp"){
+
     games = games.filter(m =>
       (m.homeJp && m.homeJp.length) ||
       (m.awayJp && m.awayJp.length)
@@ -242,8 +439,10 @@ function render(){
   );
 
   if(!games.length){
+
     main.innerHTML =
       '<div class="empty">この日の対象試合はありません。</div>';
+
     return;
   }
 
@@ -251,75 +450,113 @@ function render(){
 
   games.forEach(g => {
 
-    const league = g.league || "その他";
+    const league =
+      g.league || "その他";
 
     if(league !== currentLeague){
+
       currentLeague = league;
 
-      const section = document.createElement("section");
+      const section =
+        document.createElement("section");
+
       section.className = "league";
 
-      const title = document.createElement("div");
-     title.className = "league-title";
-     title.textContent = league;
+      const title =
+        document.createElement("div");
 
-if(viewMode !== "simple"){
-  section.appendChild(title);
-}
+      title.className = "league-title";
 
-main.appendChild(section);
+      title.textContent = league;
+
+      section.appendChild(title);
+
+      main.appendChild(section);
     }
 
     const section =
       main.lastElementChild;
 
-    const card = document.createElement("div");
+    const card =
+      document.createElement("div");
+
     card.className = "match";
 
-    const time = document.createElement("div");
-    time.className = "time";
-    time.textContent = displayTime(g.timeJst);
+    const time =
+      document.createElement("div");
 
-    const home = document.createElement("div");
+    time.className = "time";
+
+    time.textContent =
+      displayTime(g.timeJst);
+
+    const home =
+      document.createElement("div");
+
     home.className = "team";
 
-    const homeTag = document.createElement("span");
+    const homeTag =
+      document.createElement("span");
+
     homeTag.className = "league-tag";
+
     homeTag.textContent = league;
 
-if(viewMode !== "simple"){
-  home.appendChild(homeTag);
-}
+    home.appendChild(homeTag);
 
-    const homeName = document.createElement("div");
-    homeName.textContent = g.homeNameJa || "";
+    const homeName =
+      document.createElement("div");
+
+    homeName.textContent =
+      g.homeNameJa || "";
+
     home.appendChild(homeName);
 
     if(g.homeJp && g.homeJp.length){
-      const jp = document.createElement("span");
+
+      const jp =
+        document.createElement("span");
+
       jp.className = "jp";
-      jp.textContent = g.homeJp.join("・");
+
+      jp.textContent =
+        g.homeJp.join("・");
+
       home.appendChild(jp);
     }
 
-    const away = document.createElement("div");
+    const away =
+      document.createElement("div");
+
     away.className = "team";
 
-    const awayTag = document.createElement("span");
-   awayTag.className = "league-tag";
-   awayTag.textContent = league;
+    const awayTag =
+      document.createElement("span");
 
-if(viewMode !== "simple"){
-   away.appendChild(awayTag);
-}
-    const awayName = document.createElement("div");
-    awayName.textContent = g.awayNameJa || "";
+    awayTag.className = "league-tag";
+
+    awayTag.textContent = league;
+
+    away.appendChild(awayTag);
+
+    const awayName =
+      document.createElement("div");
+
+    awayName.textContent =
+      g.awayNameJa || "";
+
     away.appendChild(awayName);
 
     if(g.awayJp && g.awayJp.length){
-      const jp = document.createElement("span");
+
+      const jp =
+        document.createElement("span");
+
       jp.className = "jp";
-      jp.textContent = g.awayJp.join("・");
+
+      jp.textContent =
+        g.awayJp.join("・");
+
       away.appendChild(jp);
     }
 
@@ -331,22 +568,234 @@ if(viewMode !== "simple"){
   });
 }
 
+/* =========================
+   10日間一覧表示
+   ========================= */
+
+function renderTable(){
+
+  document.body.classList.add("table-active");
+
+  const main =
+    document.getElementById("matches");
+
+  main.className = "table-mode";
+
+  main.innerHTML = "";
+
+  const dates =
+    getTableDates();
+
+  const wrapper =
+    document.createElement("div");
+
+  wrapper.className = "table-wrap";
+
+  const table =
+    document.createElement("table");
+
+  table.className = "schedule-table";
+
+  const thead =
+    document.createElement("thead");
+
+  const header =
+    document.createElement("tr");
+
+  [
+    "日付",
+    "時刻",
+    "リーグ",
+    "ホーム",
+    "日本人",
+    "アウェイ",
+    "日本人"
+  ].forEach(text => {
+
+    const th =
+      document.createElement("th");
+
+    th.textContent = text;
+
+    header.appendChild(th);
+  });
+
+  thead.appendChild(header);
+
+  table.appendChild(thead);
+
+  const tbody =
+    document.createElement("tbody");
+
+  dates.forEach(date => {
+
+    const key =
+      dateKey(date);
+
+    let games =
+      allMatches.filter(
+        m => m.dateJst === key
+      );
+
+    if(filter === "jp"){
+
+      games = games.filter(m =>
+        (m.homeJp && m.homeJp.length) ||
+        (m.awayJp && m.awayJp.length)
+      );
+    }
+
+    games.sort((a,b) =>
+      String(a.timeJst || "").localeCompare(
+        String(b.timeJst || "")
+      )
+    );
+
+    games.forEach((g,index) => {
+
+      const tr =
+        document.createElement("tr");
+
+      if(index === 0){
+        tr.className = "date-start";
+      }
+
+      /* 日付は各日の最初の試合だけ表示 */
+      const dateCell =
+        document.createElement("td");
+
+      dateCell.className = "date-cell";
+
+      if(index === 0){
+
+        dateCell.textContent =
+          `${date.getMonth()+1}/${date.getDate()}（${dayNames[date.getDay()]}）`;
+      }
+
+      const timeCell =
+        document.createElement("td");
+
+      timeCell.className = "time-cell";
+
+      timeCell.textContent =
+        displayTime(g.timeJst);
+
+      const leagueCell =
+        document.createElement("td");
+
+      leagueCell.className = "league-cell";
+
+      leagueCell.textContent =
+        g.league || "その他";
+
+      const homeCell =
+        document.createElement("td");
+
+      homeCell.className = "team-cell";
+
+      homeCell.textContent =
+        g.homeNameJa || "";
+
+      const homeJpCell =
+        document.createElement("td");
+
+      homeJpCell.className = "jp-cell";
+
+      homeJpCell.textContent =
+        g.homeJp && g.homeJp.length
+        ? g.homeJp.join("・")
+        : "";
+
+      const awayCell =
+        document.createElement("td");
+
+      awayCell.className = "team-cell";
+
+      awayCell.textContent =
+        g.awayNameJa || "";
+
+      const awayJpCell =
+        document.createElement("td");
+
+      awayJpCell.className = "jp-cell";
+
+      awayJpCell.textContent =
+        g.awayJp && g.awayJp.length
+        ? g.awayJp.join("・")
+        : "";
+
+      tr.appendChild(dateCell);
+      tr.appendChild(timeCell);
+      tr.appendChild(leagueCell);
+      tr.appendChild(homeCell);
+      tr.appendChild(homeJpCell);
+      tr.appendChild(awayCell);
+      tr.appendChild(awayJpCell);
+
+      tbody.appendChild(tr);
+    });
+  });
+
+  if(!tbody.children.length){
+
+    main.innerHTML =
+      '<div class="empty">対象試合はありません。</div>';
+
+    return;
+  }
+
+  table.appendChild(tbody);
+
+  wrapper.appendChild(table);
+
+  main.appendChild(wrapper);
+}
+
+/* =========================
+   表示切り替え
+   ========================= */
+
+function render(){
+
+  if(viewMode === "table"){
+
+    document.getElementById("date").textContent =
+      "今後10日間";
+
+    renderTable();
+
+  }else{
+
+    renderNormal();
+  }
+}
+
+/* =========================
+   schedule.json 読み込み
+   ========================= */
+
 async function loadSchedule(){
 
-  const main = document.getElementById("matches");
+  const main =
+    document.getElementById("matches");
 
   try{
 
-    const response = await fetch(
-      "./schedule.json?v=" + Date.now(),
-      {cache:"no-store"}
-    );
+    const response =
+      await fetch(
+        "./schedule.json?v=" + Date.now(),
+        {cache:"no-store"}
+      );
 
     if(!response.ok){
-      throw new Error("schedule.json の読み込みに失敗しました");
+
+      throw new Error(
+        "schedule.json の読み込みに失敗しました"
+      );
     }
 
-    allMatches = await response.json();
+    allMatches =
+      await response.json();
 
     render();
 
@@ -359,39 +808,64 @@ async function loadSchedule(){
   }
 }
 
+/* =========================
+   前日・翌日
+   ========================= */
+
 document.getElementById("prev").onclick = () => {
+
+  if(viewMode === "table") return;
+
   day.setDate(day.getDate() - 1);
+
   render();
 };
 
 document.getElementById("next").onclick = () => {
+
+  if(viewMode === "table") return;
+
   day.setDate(day.getDate() + 1);
+
   render();
 };
+
+/* =========================
+   フィルター・表示切り替え
+   ========================= */
 
 document.querySelectorAll(".filter").forEach(button => {
 
   button.onclick = () => {
 
     document.querySelectorAll(".filter")
-      .forEach(x => x.classList.remove("active"));
+      .forEach(x =>
+        x.classList.remove("active")
+      );
 
     button.classList.add("active");
 
     if(button.dataset.view){
-      viewMode = button.dataset.view;
+
+      viewMode =
+        button.dataset.view;
+
     }else{
-      filter = button.dataset.filter;
+
+      filter =
+        button.dataset.filter;
+
       viewMode = "normal";
     }
 
     render();
   };
-
 });
 
 loadSchedule();
+
 </script>
 
 </body>
 </html>
+```
