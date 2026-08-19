@@ -34,7 +34,6 @@ JP_PLAYERS = {
     "aston villa fc": ["鈴木彩艶"],
     "coventry city": ["坂元達裕"],
 
-
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
     "valencia cf": ["佐藤龍之介"],
