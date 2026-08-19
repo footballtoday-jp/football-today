@@ -36,17 +36,6 @@
     "dateJst": "2026-08-22",
     "timeJst": "04:00",
     "utcDate": "2026-08-21T19:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "Arsenal FC",
-    "awayNameJa": "Coventry City FC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-22",
-    "timeJst": "04:00",
-    "utcDate": "2026-08-21T19:00:00Z",
     "competition": "PD",
     "league": "🇪🇸 ラ・リーガ",
     "homeNameJa": "Real Betis Balompié",
@@ -55,6 +44,17 @@
     "awayJp": [
       "久保建英"
     ]
+  },
+  {
+    "dateJst": "2026-08-22",
+    "timeJst": "04:00",
+    "utcDate": "2026-08-21T19:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "Arsenal FC",
+    "awayNameJa": "Coventry City FC",
+    "homeJp": [],
+    "awayJp": []
   },
   {
     "dateJst": "2026-08-22",
@@ -214,43 +214,21 @@
     "dateJst": "2026-08-23",
     "timeJst": "03:45",
     "utcDate": "2026-08-22T18:45:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "パルマ",
-    "awayNameJa": "Cagliari Calcio",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-23",
-    "timeJst": "03:45",
-    "utcDate": "2026-08-22T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Le Mans FC",
-    "awayNameJa": "Stade Brestois 29",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-23",
-    "timeJst": "03:45",
-    "utcDate": "2026-08-22T18:45:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "Genoa CFC",
-    "awayNameJa": "SSC Napoli",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-23",
-    "timeJst": "03:45",
-    "utcDate": "2026-08-22T18:45:00Z",
     "competition": "FL1",
     "league": "🇫🇷 リーグ・アン",
     "homeNameJa": "OGC Nice",
     "awayNameJa": "FC Lorient",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-23",
+    "timeJst": "03:45",
+    "utcDate": "2026-08-22T18:45:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "パルマ",
+    "awayNameJa": "Cagliari Calcio",
     "homeJp": [],
     "awayJp": []
   },
@@ -273,6 +251,28 @@
     "league": "🇫🇷 リーグ・アン",
     "homeNameJa": "ES Troyes AC",
     "awayNameJa": "Paris FC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-23",
+    "timeJst": "03:45",
+    "utcDate": "2026-08-22T18:45:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Le Mans FC",
+    "awayNameJa": "Stade Brestois 29",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-23",
+    "timeJst": "03:45",
+    "utcDate": "2026-08-22T18:45:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "Genoa CFC",
+    "awayNameJa": "SSC Napoli",
     "homeJp": [],
     "awayJp": []
   },
@@ -326,17 +326,6 @@
     "dateJst": "2026-08-23",
     "timeJst": "22:00",
     "utcDate": "2026-08-23T13:00:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Angers SCO",
-    "awayNameJa": "Lille OSC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-23",
-    "timeJst": "22:00",
-    "utcDate": "2026-08-23T13:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "ブライトン",
@@ -354,6 +343,17 @@
     "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "Manchester City FC",
     "awayNameJa": "AFC Bournemouth",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-23",
+    "timeJst": "22:00",
+    "utcDate": "2026-08-23T13:00:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Angers SCO",
+    "awayNameJa": "Lille OSC",
     "homeJp": [],
     "awayJp": []
   },
@@ -415,8 +415,8 @@
     "utcDate": "2026-08-23T16:30:00Z",
     "competition": "SA",
     "league": "🇮🇹 セリエA",
-    "homeNameJa": "Venezia FC",
-    "awayNameJa": "US Lecce",
+    "homeNameJa": "Frosinone Calcio",
+    "awayNameJa": "Juventus FC",
     "homeJp": [],
     "awayJp": []
   },
@@ -426,8 +426,8 @@
     "utcDate": "2026-08-23T16:30:00Z",
     "competition": "SA",
     "league": "🇮🇹 セリエA",
-    "homeNameJa": "Frosinone Calcio",
-    "awayNameJa": "Juventus FC",
+    "homeNameJa": "Venezia FC",
+    "awayNameJa": "US Lecce",
     "homeJp": [],
     "awayJp": []
   },
