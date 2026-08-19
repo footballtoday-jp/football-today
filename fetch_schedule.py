@@ -68,6 +68,7 @@ ALIASES = {
     "tottenham hotspur fc": "トッテナム",
     "aston villa fc": "アストン・ヴィラ",
     "coventry city": "コヴェントリー・シティ",
+    "ipswich town fc": "イプスウィッチ・タウン",
     "real sociedad de fútbol": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
     "parma calcio 1913": "パルマ",
