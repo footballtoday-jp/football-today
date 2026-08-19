@@ -98,7 +98,14 @@ LEAGUE_JA = {
 
 def norm(s):
     return " ".join(s.lower().strip().split())
-
+    
+def alias_name(name):
+    n = norm(name)
+    for key, value in ALIASES.items():
+        if norm(key) == n:
+            return value
+    return name
+    
 def get_json(url):
     req=Request(url, headers={"X-Auth-Token": TOKEN, "Accept":"application/json"})
     try:
@@ -143,8 +150,8 @@ for m in matches:
         "utcDate": utc,
         "competition": code,
         "league": LEAGUE_JA[code],
-        "homeNameJa": ALIASES.get(hn, home),
-        "awayNameJa": ALIASES.get(an, away),
+        "homeNameJa": alias_name(home),
+        "awayNameJa": alias_name(away),
         "homeJp": hjp,
         "awayJp": ajp,
     })
