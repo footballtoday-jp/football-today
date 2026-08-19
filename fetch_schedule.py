@@ -13,7 +13,7 @@ if not TOKEN:
 JST = ZoneInfo("Asia/Tokyo")
 today = datetime.now(JST).date()
 date_from = today
-date_to = today + timedelta(days=9)
+date_to = today + timedelta(days=10)
 
 # Current Free plan coverage used by this first version.
 # Belgium/Europa League are intentionally not requested here because they
@@ -139,14 +139,25 @@ for m in matches:
         continue
     utc=m["utcDate"]
     dt=datetime.fromisoformat(utc.replace("Z","+00:00")).astimezone(JST)
+    
+    # 6時区切り
+    # 00:00～05:59の試合は前日の扱いにする
+    display_dt = dt - timedelta(hours=6)
+
     home=m["homeTeam"]["name"]
     away=m["awayTeam"]["name"]
     hn=norm(home); an=norm(away)
     hjp=JP_PLAYERS.get(hn,[])
     ajp=JP_PLAYERS.get(an,[])
+    
+    # 6時より前の時間は24時台として表示
+    display_hour = dt.hour + 24 if dt.hour < 6 else dt.hour
+    display_time = f"{display_hour:02d}:{dt.minute:02d}"
+
     out.append({
-        "dateJst": dt.date().isoformat(),
-        "timeJst": dt.strftime("%H:%M"),
+    "dateJst": display_dt.date().isoformat(),
+    "timeJst": display_time,
+        
         "utcDate": utc,
         "competition": code,
         "league": LEAGUE_JA[code],
