@@ -23,35 +23,41 @@ COMPETITIONS = "PL,PD,SA,BL1,FL1,DED,CL"
 # Japanese players / clubs. This is deliberately maintained as a small
 # mapping so the public site never exposes the API token.
 JP_PLAYERS = {
-    # Premier League
-    "brighton & hove albion fc": ["三笘薫"],
-    "liverpool fc": ["遠藤航"],
-    "crystal palace fc": ["鎌田大地"],
-    "leeds united fc": ["田中碧"],
-    "tottenham hotspur fc": ["高井幸大"],
+   # Premier League
+   "brighton & hove albion": ["三笘薫"],
+   "liverpool fc": ["遠藤航"],
+   "crystal palace fc": ["鎌田大地", "冨安健洋"],
+   "leeds united fc": ["田中碧"],
+   "tottenham hotspur fc": ["高井幸大"],
+   "ipswich town fc": ["前田大然"],
+    "hull city": ["守田英正"],
+    "aston villa fc": ["鈴木彩艶"],
+    "coventry city": ["坂元達裕"],
+　
 
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
+    "valencia cf": ["佐藤龍之介"],
 
     # Serie A
-    "parma calcio 1913": ["鈴木彩艶"],
+    # 現時点では登録なし
 
     # Bundesliga
     "fc bayern münchen": ["伊藤洋輝"],
-    "sv werder bremen": ["菅原由勢"],
-    "eintracht frankfurt": ["堂安律"],
-    "sc freiburg": ["後藤啓介", "山本理仁"],
-    "1. fsv mainz 05": ["川﨑颯太"],
-    "borussia mönchengladbach": ["宇野禅斗"],
+    "sv werder bremen": [],
+    "eintracht frankfurt": ["堂安律", "小杉啓太"],
+    "sc freiburg": ["鈴木唯人", "山本理仁", "長田澪", "後藤啓介"],
+    "1. fsv mainz 05": ["川﨑颯太", "佐野海舟"],
+    "borussia mönchengladbach": ["町野修斗", "宇野禅斗", "橋岡大樹", "板倉滉"],
 
     # Ligue 1
-    "le havre ac": ["瀬古歩夢"],
+    "le havre ac": ["瀬古歩夢", "水多海斗"],
     "stade de reims": ["中村敬斗"],
 
     # Eredivisie
-    "afc ajax": ["板倉滉", "冨安健洋"],
     "feyenoord rotterdam": ["渡辺剛", "上田綺世"],
-    "nec nijmegen": ["小川航基", "佐野航大"],
+    "nec nijmegen": ["小川航基"],
+    "psv": ["佐野航大"],
 }
 
 ALIASES = {
@@ -61,7 +67,10 @@ ALIASES = {
     "crystal palace fc": "クリスタル・パレス",
     "leeds united fc": "リーズ・ユナイテッド",
     "tottenham hotspur fc": "トッテナム",
+    "aston villa fc": "アストン・ヴィラ",
+    "coventry city": "コヴェントリー・シティ",
     "real sociedad de fútbol": "レアル・ソシエダ",
+    "valencia cf": "バレンシア",
     "parma calcio 1913": "パルマ",
     "fc bayern münchen": "バイエルン・ミュンヘン",
     "sv werder bremen": "ブレーメン",
@@ -74,6 +83,7 @@ ALIASES = {
     "afc ajax": "アヤックス",
     "feyenoord rotterdam": "フェイエノールト",
     "nec nijmegen": "NECナイメヘン",
+    "psv": "PSV",
 }
 
 LEAGUE_JA = {
