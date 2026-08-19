@@ -97,19 +97,6 @@
     "utcDate": "2026-08-22T14:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "イプスウィッチ・タウン",
-    "awayNameJa": "Sunderland AFC",
-    "homeJp": [
-      "前田大然"
-    ],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-22",
-    "timeJst": "23:00",
-    "utcDate": "2026-08-22T14:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "Everton FC",
     "awayNameJa": "クリスタル・パレス",
     "homeJp": [],
@@ -117,6 +104,19 @@
       "鎌田大地",
       "冨安健洋"
     ]
+  },
+  {
+    "dateJst": "2026-08-22",
+    "timeJst": "23:00",
+    "utcDate": "2026-08-22T14:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "イプスウィッチ・タウン",
+    "awayNameJa": "Sunderland AFC",
+    "homeJp": [
+      "前田大然"
+    ],
+    "awayJp": []
   },
   {
     "dateJst": "2026-08-22",
@@ -339,10 +339,10 @@
     "dateJst": "2026-08-23",
     "timeJst": "22:00",
     "utcDate": "2026-08-23T13:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "Manchester City FC",
-    "awayNameJa": "AFC Bournemouth",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Angers SCO",
+    "awayNameJa": "Lille OSC",
     "homeJp": [],
     "awayJp": []
   },
@@ -350,10 +350,10 @@
     "dateJst": "2026-08-23",
     "timeJst": "22:00",
     "utcDate": "2026-08-23T13:00:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Angers SCO",
-    "awayNameJa": "Lille OSC",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "Manchester City FC",
+    "awayNameJa": "AFC Bournemouth",
     "homeJp": [],
     "awayJp": []
   },
