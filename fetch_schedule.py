@@ -33,7 +33,7 @@ JP_PLAYERS = {
     "hull city": ["守田英正"],
     "aston villa fc": ["鈴木彩艶"],
     "coventry city": ["坂元達裕"],
-　
+
 
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
