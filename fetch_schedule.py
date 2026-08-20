@@ -109,6 +109,14 @@ LEAGUE_JA = {
     "CL":"🇪🇺 UEFAチャンピオンズリーグ",
 }
 
+ELC_TARGET_TEAMS = {
+    "southampton fc",
+    "blackburn rovers fc",
+    "birmingham city fc",
+    "queens park rangers fc",
+    "bristol city fc",
+}
+
 def norm(s):
     return " ".join(s.lower().strip().split())
     
@@ -177,8 +185,20 @@ out=[]
 for m in matches:
     comp=m.get("competition",{})
     code=comp.get("code")
+    
     if code not in LEAGUE_JA:
         continue
+
+    if code == "ELC":
+        home_name = norm(m["homeTeam"]["name"])
+        away_name = norm(m["awayTeam"]["name"])
+
+     if (
+            home_name not in ELC_TARGET_TEAMS
+            and away_name not in ELC_TARGET_TEAMS
+        ):
+            continue
+
     utc=m["utcDate"]
     dt=datetime.fromisoformat(utc.replace("Z","+00:00")).astimezone(JST)
     
