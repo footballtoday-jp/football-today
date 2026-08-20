@@ -120,6 +120,8 @@ def alias_name(name):
     return name
     
 def get_json(url):
+    print(f"API request start: {url}", flush=True)
+    
     for attempt in range(4):
         req = Request(
             url,
@@ -131,6 +133,7 @@ def get_json(url):
 
         try:
             with urlopen(req, timeout=30) as r:
+                print(f"API response received: HTTP {r.status}", flush=True)
                 return json.load(r)
 
         except HTTPError as e:
@@ -149,6 +152,7 @@ def get_json(url):
                 print(
                     f"Rate limit reached. "
                     f"Waiting {wait_seconds} seconds before retry..."
+                    flush=True
                 )
 
                 time.sleep(wait_seconds)
