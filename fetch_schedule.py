@@ -50,9 +50,11 @@ JP_PLAYERS = {
     "1. fsv mainz 05": ["川﨑颯太", "佐野海舟"],
     "borussia mönchengladbach": ["町野修斗", "宇野禅斗", "橋岡大樹", "板倉滉"],
     "fc schalke 04": ["田中聡"],
+    "tsg 1899 hoffenheim": ["町田浩樹"],
 
     # Ligue 1
     "le havre ac": ["瀬古歩夢", "水多海斗","中村草太"],
+    "as monaco fc": ["南野拓実"],
     "as monaco": ["南野拓実"],
 
     # Eredivisie
@@ -84,6 +86,9 @@ ALIASES = {
     "sc freiburg": "フライブルク",
     "1. fsv mainz 05": "マインツ",
     "borussia mönchengladbach": "ボルシアMG",
+    "tsg 1899 hoffenheim": "ホッフェンハイム",
+    "as monaco fc": "モナコ",
+    "as monaco": "モナコ",
     "le havre ac": "ル・アーヴル",
     "stade de reims": "スタッド・ランス",
     "afc ajax": "アヤックス",
