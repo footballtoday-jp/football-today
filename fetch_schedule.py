@@ -18,7 +18,7 @@ date_to = today + timedelta(days=10)
 # Current Free plan coverage used by this first version.
 # Belgium/Europa League are intentionally not requested here because they
 # are not listed in the current Free coverage page.
-COMPETITIONS = "PL,PD,SA,BL1,FL1,DED,CL"
+COMPETITIONS = "PL,ELC,PD,SA,BL1,FL1,DED,CL"
 
 # Japanese players / clubs. This is deliberately maintained as a small
 # mapping so the public site never exposes the API token.
@@ -100,6 +100,7 @@ ALIASES = {
 
 LEAGUE_JA = {
     "PL":"🇬🇧 プレミアリーグ",
+    "ELC":"🏴 EFLチャンピオンシップ",
     "PD":"🇪🇸 ラ・リーガ",
     "SA":"🇮🇹 セリエA",
     "BL1":"🇩🇪 ブンデスリーガ",
