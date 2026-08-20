@@ -2,22 +2,20 @@ import json
 from urllib.request import Request, urlopen
 from urllib.parse import urlencode
 
-LEAGUE_ID = "4481"
-SEASON = "2026-2027"
+DATE = "2026-07-09"
 
 params = urlencode({
-    "id": LEAGUE_ID,
-    "s": SEASON,
+    "d": DATE,
+    "s": "Soccer",
 })
 
 url = (
     "https://www.thesportsdb.com/api/v1/json/123/"
-    f"eventsseason.php?{params}"
+    f"eventsday.php?{params}"
 )
 
-print("Testing TheSportsDB...")
-print("League ID:", LEAGUE_ID)
-print("Season:", SEASON)
+print("Testing TheSportsDB by date...")
+print("Date:", DATE)
 
 req = Request(
     url,
@@ -31,17 +29,28 @@ with urlopen(req, timeout=30) as response:
 
 events = data.get("events") or []
 
-print("Number of events:", len(events))
+print("All soccer events returned:", len(events))
 
-if not events:
-    print("No events returned.")
+# UEFA Europa Leagueだけを抽出
+el_events = []
+
+for event in events:
+    league = (event.get("strLeague") or "").lower()
+
+    if "europa league" in league:
+        el_events.append(event)
+
+print("Europa League events:", len(el_events))
+
+if not el_events:
+    print("No Europa League events returned.")
 else:
-    print("SUCCESS: Events were returned!")
+    print("SUCCESS: Europa League events were returned!")
 
-    for event in events[:10]:
+    for event in el_events:
         print("--------------------")
+        print("League:", event.get("strLeague"))
         print("Date:", event.get("dateEvent"))
         print("Time:", event.get("strTime"))
         print("Home:", event.get("strHomeTeam"))
         print("Away:", event.get("strAwayTeam"))
-        print("Season:", event.get("strSeason"))
