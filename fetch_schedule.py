@@ -185,11 +185,11 @@ out=[]
 for m in matches:
     comp=m.get("competition",{})
     code=comp.get("code")
-    
+
     if code not in LEAGUE_JA:
         continue
 
-       if code == "ELC":
+    if code == "ELC":
         home_name = norm(m["homeTeam"]["name"])
         away_name = norm(m["awayTeam"]["name"])
 
@@ -198,7 +198,7 @@ for m in matches:
             and away_name not in ELC_TARGET_TEAMS
         ):
             continue
-            
+
     utc=m["utcDate"]
     dt=datetime.fromisoformat(utc.replace("Z","+00:00")).astimezone(JST)
     
