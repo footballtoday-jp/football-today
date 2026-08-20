@@ -30,9 +30,9 @@ JP_PLAYERS = {
    "leeds united fc": ["田中碧"],
    "tottenham hotspur fc": ["高井幸大"],
    "ipswich town fc": ["前田大然"],
-    "hull city afc": ["守田英正"],
-    "aston villa fc": ["鈴木彩艶"],
-    "coventry city fc": ["坂元達裕"],
+   "hull city afc": ["守田英正"],
+   "aston villa fc": ["鈴木彩艶"],
+   "coventry city fc": ["坂元達裕"],
 
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
@@ -48,15 +48,18 @@ JP_PLAYERS = {
     "sc freiburg": ["鈴木唯人", "山本理仁", "長田澪", "後藤啓介"],
     "1. fsv mainz 05": ["川﨑颯太", "佐野海舟"],
     "borussia mönchengladbach": ["町野修斗", "宇野禅斗", "橋岡大樹", "板倉滉"],
+    "fc schalke 04": ["田中聡"],
 
     # Ligue 1
-    "le havre ac": ["瀬古歩夢", "水多海斗"],
-    "stade de reims": ["中村敬斗"],
+    "le havre ac": ["瀬古歩夢", "水多海斗","中村草太"],
+    "as monaco": ["南野拓実"],
 
     # Eredivisie
     "feyenoord rotterdam": ["渡辺剛", "上田綺世"],
     "nec nijmegen": ["小川航基"],
     "psv": ["佐野航大"],
+    "az": ["毎熊晟矢", "市原吏音"],
+    "sparta rotterdam": ["三戸舜介"],
 }
 
 ALIASES = {
