@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, os, sys
+import json, os, sys, time
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -120,13 +120,43 @@ def alias_name(name):
     return name
     
 def get_json(url):
-    req=Request(url, headers={"X-Auth-Token": TOKEN, "Accept":"application/json"})
-    try:
-        with urlopen(req, timeout=30) as r:
-            return json.load(r)
-    except HTTPError as e:
-        body=e.read().decode("utf-8","replace")
-        raise RuntimeError(f"football-data.org HTTP {e.code}: {body[:500]}")
+    for attempt in range(4):
+        req = Request(s
+            url,
+            headers={
+                "X-Auth-Token": TOKEN,
+                "Accept": "application/json"
+            }
+        )
+
+        try:
+            with urlopen(req, timeout=30) as r:
+                return json.load(r)
+
+        except HTTPError as e:
+            body = e.read().decode("utf-8", "replace")
+
+            if e.code == 429 and attempt < 3:
+                retry_after = e.headers.get("Retry-After")
+
+                try:
+                    wait_seconds = int(retry_after) if retry_after else 60
+                except (TypeError, ValueError):
+                    wait_seconds = 60
+
+                wait_seconds += 5
+
+                print(
+                    f"Rate limit reached. "
+                    f"Waiting {wait_seconds} seconds before retry..."
+                )
+
+                time.sleep(wait_seconds)
+                continue
+
+            raise RuntimeError(
+                f"football-data.org HTTP {e.code}: {body[:500]}"
+            )
 
 def fetch_page(offset=0):
     url=(f"{API}?competitions={COMPETITIONS}"
