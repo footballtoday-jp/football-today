@@ -162,21 +162,16 @@ def get_json(url):
                 f"football-data.org HTTP {e.code}: {body[:500]}"
             )
 
-def fetch_page(offset=0):
-    url=(f"{API}?competitions={COMPETITIONS}"
-         f"&dateFrom={date_from.isoformat()}&dateTo={date_to.isoformat()}"
-         f"&limit=100&offset={offset}")
+def fetch_matches():
+    url=(
+        f"{API}?competitions={COMPETITIONS}"
+        f"&dateFrom={date_from.isoformat()}"
+        f"&dateTo={date_to.isoformat()}"
+    )
     return get_json(url)
 
-matches=[]
-offset=0
-while True:
-    data=fetch_page(offset)
-    page=data.get("matches",[])
-    matches.extend(page)
-    if len(page)<100:
-        break
-    offset += len(page)
+data = fetch_matches()
+matches = data.get("matches", [])
 
 out=[]
 for m in matches:
