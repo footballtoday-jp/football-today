@@ -121,7 +121,7 @@ def alias_name(name):
     
 def get_json(url):
     for attempt in range(4):
-        req = Request(s
+        req = Request(
             url,
             headers={
                 "X-Auth-Token": TOKEN,
