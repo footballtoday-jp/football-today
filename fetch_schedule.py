@@ -151,7 +151,7 @@ def get_json(url):
 
                 print(
                     f"Rate limit reached. "
-                    f"Waiting {wait_seconds} seconds before retry..."
+                    f"Waiting {wait_seconds} seconds before retry...",
                     flush=True
                 )
 
