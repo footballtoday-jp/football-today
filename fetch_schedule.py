@@ -144,7 +144,7 @@ def get_json(url):
                 except (TypeError, ValueError):
                     wait_seconds = 60
 
-                wait_seconds += 5
+                wait_seconds = min(wait_seconds + 5, 90)
 
                 print(
                     f"Rate limit reached. "
