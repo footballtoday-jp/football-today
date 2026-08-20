@@ -34,7 +34,13 @@ JP_PLAYERS = {
    "hull city afc": ["守田英正"],
    "aston villa fc": ["鈴木彩艶"],
    "coventry city fc": ["坂元達裕"],
-
+    
+    # Championship
+    "southampton fc": ["菅原由勢", "松木玖生"],
+    "blackburn rovers fc": ["大橋祐紀", "森下龍矢"],
+    "birmingham city fc": ["岩田智輝", "藤本寛也"],
+    "queens park rangers fc": ["斉藤光毅"],
+    "bristol city fc": ["平河悠"],
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
     "valencia cf": ["佐藤龍之介"],
@@ -77,6 +83,14 @@ ALIASES = {
     "coventry city fc": "コヴェントリー・シティ",
     "ipswich town fc": "イプスウィッチ・タウン",
     "hull city afc": "ハル・シティ",
+    
+     # Championship
+    "southampton fc": "サウサンプトン",
+    "blackburn rovers fc": "ブラックバーン",
+    "birmingham city fc": "バーミンガム",
+    "queens park rangers fc": "QPR",
+    "bristol city fc": "ブリストル・シティ",
+    
     "real sociedad de fútbol": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
     "parma calcio 1913": "パルマ",
