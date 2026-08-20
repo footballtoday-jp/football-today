@@ -72,7 +72,9 @@ ALIASES = {
     "tottenham hotspur fc": "トッテナム",
     "aston villa fc": "アストン・ヴィラ",
     "coventry city": "コヴェントリー・シティ",
+    "coventry city fc": "コヴェントリー・シティ",
     "ipswich town fc": "イプスウィッチ・タウン",
+    "hull city afc": "ハル・シティ",
     "real sociedad de fútbol": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
     "parma calcio 1913": "パルマ",
@@ -88,6 +90,7 @@ ALIASES = {
     "feyenoord rotterdam": "フェイエノールト",
     "nec nijmegen": "NECナイメヘン",
     "psv": "PSV",
+    "sparta rotterdam": "スパルタ・ロッテルダム",
 }
 
 LEAGUE_JA = {
