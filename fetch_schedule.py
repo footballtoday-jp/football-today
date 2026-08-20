@@ -24,6 +24,7 @@ COMPETITIONS = "PL,PD,SA,BL1,FL1,DED,CL"
 # mapping so the public site never exposes the API token.
 JP_PLAYERS = {
    # Premier League
+   "brighton & hove albion": ["三笘薫"],
    "brighton & hove albion fc": ["三笘薫"],
    "liverpool fc": ["遠藤航"],
    "crystal palace fc": ["鎌田大地", "冨安健洋"],
