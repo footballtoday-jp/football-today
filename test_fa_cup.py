@@ -58,4 +58,26 @@ if pos >= 0:
 else:
     print("Redcar Town was not found.")
 
+print("\n--- HTML DIAGNOSTIC ---")
+
+checks = [
+    "Fixtures",
+    "Kick Off",
+    "Home",
+    "Away",
+    "Extra Preliminary Round",
+    "Preliminary Round",
+    "Redcar Town",
+    "Bridlington Town AFC",
+]
+
+for word in checks:
+    print(word, "=>", html.lower().find(word.lower()))
+
+pos = html.lower().find("fixtures")
+
+if pos >= 0:
+    print("\nHTML around 'Fixtures':")
+    print(html[max(0, pos - 500):pos + 2000])
+
 print("\nTEST FINISHED")
