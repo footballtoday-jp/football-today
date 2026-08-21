@@ -57,6 +57,7 @@ JP_PLAYERS = {
     "borussia mönchengladbach": ["町野修斗", "宇野禅斗", "橋岡大樹", "板倉滉"],
     "fc schalke 04": ["田中聡"],
     "tsg 1899 hoffenheim": ["町田浩樹"],
+    "borussia dortmund": ["山本天翔"],
 
     # Ligue 1
     "le havre ac": ["瀬古歩夢", "水多海斗","中村草太"],
@@ -101,6 +102,7 @@ ALIASES = {
     "1. fsv mainz 05": "マインツ",
     "borussia mönchengladbach": "ボルシアMG",
     "tsg 1899 hoffenheim": "ホッフェンハイム",
+    "borussia dortmund": "ドルトムント",
     "as monaco fc": "モナコ",
     "as monaco": "モナコ",
     "le havre ac": "ル・アーヴル",
