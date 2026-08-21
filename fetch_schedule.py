@@ -271,9 +271,12 @@ for m in matches:
     })
 
 # 手入力カップ戦を追加
+print("DEBUG: manual section started")
 cup_matches = []
 
 if os.path.exists("cup_matches_input.txt"):
+    print("DEBUG: txt file found")
+    
     with open("cup_matches_input.txt", "r", encoding="utf-8") as f:
         for line_no, line in enumerate(f, start=1):
             line = line.strip()
