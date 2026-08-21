@@ -271,7 +271,36 @@ for m in matches:
     })
 
 # 手入力カップ戦を追加
-if os.path.exists("cup_matches.json"):
+cup_matches = []
+
+if os.path.exists("cup_matches_input.txt"):
+    with open("cup_matches_input.txt", "r", encoding="utf-8") as f:
+        for line_no, line in enumerate(f, start=1):
+            line = line.strip()
+
+            # 空行・コメント行は無視
+            if not line or line.startswith("#"):
+                continue
+
+            parts = [part.strip() for part in line.split("|")]
+
+            if len(parts) != 5:
+                raise ValueError(
+                    f"cup_matches_input.txt の {line_no} 行目が不正です: {line}"
+                )
+
+            competition, date, time_text, home, away = parts
+
+            cup_matches.append({
+                "competition": competition,
+                "date": date,
+                "time": time_text,
+                "home": home,
+                "away": away,
+            })
+
+elif os.path.exists("cup_matches.json"):
+    # TXT移行中のバックアップ
     with open("cup_matches.json", "r", encoding="utf-8") as f:
         cup_matches = json.load(f)
 
