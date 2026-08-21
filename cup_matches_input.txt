@@ -1,3 +1,19 @@
 UECL|2026-08-28|03:30|Brighton & Hove Albion FC|Tromsø
-EL|2026-08-28|02:00|Omonia|Sint-Truidense VV
+DFB|2026-08-22|01:00|SC St. Tönis 1911/20|Eintracht Frankfurt
+DFB|2026-08-22|22:30|FC Erzgebirge Aue|TSG 1899 Hoffenheim
+DFB|2026-08-22|22:30|Lüneburger SK Hansa|SV Werder Bremen
+DFB|2026-08-23|22:30|TSV Schott Mainz|Borussia Mönchengladbach
+DFB|2026-08-23|22:30|VfB 1921 Krieschow|1. FSV Mainz 05
+DFB|2026-08-24|01:00|Fortuna Düsseldorf|SC Freiburg
+DFB|2026-08-25|03:45|Hallescher FC|FC Schalke 04
 DFB|2026-09-02|03:45|HEBC Hamburg|Borussia Dortmund
+DFB|2026-09-03|03:45|VfL Osnabrück|FC Bayern München
+EFL|2026-08-26|03:45|Ipswich Town FC|Leicester City FC
+EFL|2026-08-26|03:45|Plymouth Argyle|Coventry City FC
+EFL|2026-08-26|04:00|Birmingham City FC|Brentford FC
+EFL|2026-08-26|04:00|Nottingham Forest FC|Leeds United FC
+EFL|2026-08-27|03:45|Tottenham Hotspur FC|Charlton Athletic
+UECL|2026-08-28|01:45|SC Freiburg|Motherwell
+UECL|2026-08-28|01:45|AS Monaco FC|Górnik Zabrze
+UECL|2026-08-28|03:00|AFC Ajax|Sion
+EL|2026-08-28|02:00|Omonia|Sint-Truidense VV
