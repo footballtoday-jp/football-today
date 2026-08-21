@@ -21,16 +21,6 @@ jobs:
         with:
           python-version: "3.12"
           
-      - name: Debug fetch_schedule.py
-        run: |
-          grep -n "manual cup matches loaded" fetch_schedule.py || true
-          grep -n "cup_matches_input.txt" fetch_schedule.py || true
-          echo "=== FILES ==="
-          ls -la
-          echo "=== INPUT ==="
-          cat cup_matches_input.txt || true
-          echo "=== CODE 270-325 ==="
-          sed -n '270,325p' fetch_schedule.py
           
       - name: Fetch schedule
         env:
