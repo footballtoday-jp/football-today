@@ -10,11 +10,17 @@ print("URL:", URL)
 req = Request(
     URL,
     headers={
-        "User-Agent": "Mozilla/5.0"
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/140.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-GB,en;q=0.9",
     }
 )
 
-with urlopen(req, timeout=30) as response:
+with urlopen(req, timeout=90) as response:
     html = response.read().decode("utf-8", errors="ignore")
 
 print("HTTP download: SUCCESS")
