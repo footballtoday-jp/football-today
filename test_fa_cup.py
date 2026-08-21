@@ -80,4 +80,13 @@ if pos >= 0:
     print("\nHTML around 'Fixtures':")
     print(html[max(0, pos - 500):pos + 2000])
 
+print("\n--- MATCH HTML AROUND REDCAR TOWN ---")
+
+pos = html.lower().find("redcar town")
+
+if pos >= 0:
+    print(html[max(0, pos - 2500):pos + 3500])
+else:
+    print("Redcar Town not found in raw HTML.")
+
 print("\nTEST FINISHED")
