@@ -307,50 +307,50 @@ elif os.path.exists("cup_matches.json"):
     with open("cup_matches.json", "r", encoding="utf-8") as f:
         cup_matches = json.load(f)
 
-    print(f"manual cup matches loaded: {len(cup_matches)}")
-    print(f"DEBUG: TXT reading finished, count={len(cup_matches)}")
-    
-    CUP_LEAGUE_JA = {
-        "FA": "🏴 FAカップ",
-        "EFL": "🏴 カラバオカップ",
-        "EL": "🇪🇺 UEFAヨーロッパリーグ",
-        "UECL": "🇪🇺 UEFAカンファレンスリーグ",
-        "CDR": "🇪🇸 コパ・デル・レイ",
-        "DFB": "🇩🇪 DFBポカール",
-        "CDF": "🇫🇷 クープ・ドゥ・フランス",
-        "KNVB": "🇳🇱 KNVBベーカー",
-    }
+print(f"manual cup matches loaded: {len(cup_matches)}")
+print(f"DEBUG: TXT reading finished, count={len(cup_matches)}")
 
-    for m in cup_matches:
-        code = m["competition"]
-        home = m["home"]
-        away = m["away"]
+CUP_LEAGUE_JA = {
+    "FA": "🏴 FAカップ",
+    "EFL": "🏴 カラバオカップ",
+    "EL": "🇪🇺 UEFAヨーロッパリーグ",
+    "UECL": "🇪🇺 UEFAカンファレンスリーグ",
+    "CDR": "🇪🇸 コパ・デル・レイ",
+    "DFB": "🇩🇪 DFBポカール",
+    "CDF": "🇫🇷 クープ・ドゥ・フランス",
+    "KNVB": "🇳🇱 KNVBベーカー",
+}
 
-        home_n = norm(home)
-        away_n = norm(away)
+for m in cup_matches:
+    code = m["competition"]
+    home = m["home"]
+    away = m["away"]
 
-        # cup_matches.json の時刻は日本時間として入力
-        dt = datetime.fromisoformat(
-            f'{m["date"]}T{m["time"]}:00'
-        ).replace(tzinfo=JST)
+    home_n = norm(home)
+    away_n = norm(away)
 
-        # 00:00〜05:59は前日の試合として表示
-        display_dt = dt - timedelta(hours=6)
+    # cup_matches.json の時刻は日本時間として入力
+    dt = datetime.fromisoformat(
+        f'{m["date"]}T{m["time"]}:00'
+    ).replace(tzinfo=JST)
 
-        display_hour = dt.hour + 24 if dt.hour < 6 else dt.hour
-        display_time = f"{display_hour:02d}:{dt.minute:02d}"
+    # 00:00〜05:59は前日の試合として表示
+    display_dt = dt - timedelta(hours=6)
 
-        out.append({
-            "dateJst": display_dt.date().isoformat(),
-            "timeJst": display_time,
-            "utcDate": dt.astimezone(timezone.utc).isoformat(),
-            "competition": code,
-            "league": CUP_LEAGUE_JA.get(code, code),
-            "homeNameJa": alias_name(home),
-            "awayNameJa": alias_name(away),
-            "homeJp": JP_PLAYERS.get(home_n, []),
-            "awayJp": JP_PLAYERS.get(away_n, []),
-        })
+    display_hour = dt.hour + 24 if dt.hour < 6 else dt.hour
+    display_time = f"{display_hour:02d}:{dt.minute:02d}"
+
+    out.append({
+        "dateJst": display_dt.date().isoformat(),
+        "timeJst": display_time,
+        "utcDate": dt.astimezone(timezone.utc).isoformat(),
+        "competition": code,
+        "league": CUP_LEAGUE_JA.get(code, code),
+        "homeNameJa": alias_name(home),
+        "awayNameJa": alias_name(away),
+        "homeJp": JP_PLAYERS.get(home_n, []),
+        "awayJp": JP_PLAYERS.get(away_n, []),
+    })
 
 out.sort(key=lambda x:(x["dateJst"], x["utcDate"]))
 with open("schedule.json","w",encoding="utf-8") as f:
