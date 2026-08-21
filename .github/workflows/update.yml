@@ -25,6 +25,10 @@ jobs:
         run: |
           grep -n "manual cup matches loaded" fetch_schedule.py || true
           grep -n "cup_matches_input.txt" fetch_schedule.py || true
+          echo "=== FILES ==="
+          ls -la
+          echo "=== INPUT ==="
+          cat cup_matches_input.txt || true
           
       - name: Fetch schedule
         env:
