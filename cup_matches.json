@@ -5,5 +5,68 @@
     "time": "03:30",
     "home": "Brighton & Hove Albion FC",
     "away": "Tromsø"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-22",
+    "time": "01:00",
+    "home": "SC St. Tönis 1911/20",
+    "away": "Eintracht Frankfurt"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-22",
+    "time": "22:30",
+    "home": "FC Erzgebirge Aue",
+    "away": "TSG 1899 Hoffenheim"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-22",
+    "time": "22:30",
+    "home": "Lüneburger SK Hansa",
+    "away": "SV Werder Bremen"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-23",
+    "time": "22:30",
+    "home": "TSV Schott Mainz",
+    "away": "Borussia Mönchengladbach"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-23",
+    "time": "22:30",
+    "home": "VfB 1921 Krieschow",
+    "away": "1. FSV Mainz 05"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-24",
+    "time": "01:00",
+    "home": "Fortuna Düsseldorf",
+    "away": "SC Freiburg"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-08-25",
+    "time": "03:45",
+    "home": "Hallescher FC",
+    "away": "FC Schalke 04"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-09-02",
+    "time": "03:45",
+    "home": "HEBC Hamburg",
+    "away": "Borussia Dortmund"
+  },
+  {
+    "competition": "DFB",
+    "date": "2026-09-03",
+    "time": "03:45",
+    "home": "VfL Osnabrück",
+    "away": "FC Bayern München"
   }
 ]
