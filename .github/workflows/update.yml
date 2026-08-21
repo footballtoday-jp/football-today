@@ -29,6 +29,8 @@ jobs:
           ls -la
           echo "=== INPUT ==="
           cat cup_matches_input.txt || true
+          echo "=== CODE 270-325 ==="
+          sed -n '270,325p' fetch_schedule.py
           
       - name: Fetch schedule
         env:
