@@ -308,6 +308,7 @@ elif os.path.exists("cup_matches.json"):
         cup_matches = json.load(f)
 
     print(f"manual cup matches loaded: {len(cup_matches)}")
+    print(f"DEBUG: TXT reading finished, count={len(cup_matches)}")
     
     CUP_LEAGUE_JA = {
         "FA": "🏴 FAカップ",
