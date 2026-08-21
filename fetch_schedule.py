@@ -70,6 +70,17 @@ JP_PLAYERS = {
     "psv": ["佐野航大"],
     "az": ["毎熊晟矢", "市原吏音"],
     "sparta rotterdam": ["三戸舜介"],
+    
+    # Belgian Pro League
+    "sint-truidense vv": [
+    "小久保玲央ブライアン",
+    "谷口彰悟",
+    "畑大雅",
+    "荒木遼太郎",
+    "石渡ネルソン",
+    "松澤海斗",
+    "新川志音"
+     ],
 }
 
 ALIASES = {
@@ -123,6 +134,9 @@ ALIASES = {
     "nec nijmegen": "NECナイメヘン",
     "psv": "PSV",
     "sparta rotterdam": "スパルタ・ロッテルダム",
+
+    # Belgian Pro League
+    "sint-truidense vv": "シント＝トロイデン",
 }
 
 LEAGUE_JA = {
