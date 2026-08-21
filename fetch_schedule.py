@@ -73,6 +73,7 @@ JP_PLAYERS = {
 }
 
 ALIASES = {
+    # Premier League
     "brighton & hove albion": "ブライトン",
     "brighton & hove albion fc": "ブライトン",
     "liverpool fc": "リヴァプール",
@@ -91,10 +92,15 @@ ALIASES = {
     "birmingham city fc": "バーミンガム",
     "queens park rangers fc": "QPR",
     "bristol city fc": "ブリストル・シティ",
-    
+
+    # La Liga
     "real sociedad de fútbol": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
+
+    # Serie A
     "parma calcio 1913": "パルマ",
+
+    # Bundesliga
     "fc bayern münchen": "バイエルン・ミュンヘン",
     "sv werder bremen": "ブレーメン",
     "eintracht frankfurt": "フランクフルト",
@@ -102,11 +108,16 @@ ALIASES = {
     "1. fsv mainz 05": "マインツ",
     "borussia mönchengladbach": "ボルシアMG",
     "tsg 1899 hoffenheim": "ホッフェンハイム",
+    "fc schalke 04": "シャルケ",
     "borussia dortmund": "ドルトムント",
+
+    # Ligue 1
     "as monaco fc": "モナコ",
     "as monaco": "モナコ",
     "le havre ac": "ル・アーヴル",
     "stade de reims": "スタッド・ランス",
+
+    # Eredivisie
     "afc ajax": "アヤックス",
     "feyenoord rotterdam": "フェイエノールト",
     "nec nijmegen": "NECナイメヘン",
