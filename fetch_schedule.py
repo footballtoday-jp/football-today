@@ -252,6 +252,7 @@ if os.path.exists("cup_matches.json"):
         "FA": "🏴 FAカップ",
         "EFL": "🏴 カラバオカップ",
         "EL": "🇪🇺 UEFAヨーロッパリーグ",
+        "UECL": "🇪🇺 UEFAカンファレンスリーグ",
         "CDR": "🇪🇸 コパ・デル・レイ",
         "DFB": "🇩🇪 DFBポカール",
         "CDF": "🇫🇷 クープ・ドゥ・フランス",
