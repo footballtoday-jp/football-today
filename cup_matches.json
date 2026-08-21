@@ -68,5 +68,40 @@
     "time": "03:45",
     "home": "VfL Osnabrück",
     "away": "FC Bayern München"
-  }
+  },
+ {
+  "competition": "EFL",
+  "date": "2026-08-26",
+  "time": "03:45",
+  "home": "Ipswich Town FC",
+  "away": "Leicester City FC"
+},
+{
+  "competition": "EFL",
+  "date": "2026-08-26",
+  "time": "03:45",
+  "home": "Plymouth Argyle",
+  "away": "Coventry City FC"
+},
+{
+  "competition": "EFL",
+  "date": "2026-08-26",
+  "time": "04:00",
+  "home": "Birmingham City FC",
+  "away": "Brentford FC"
+},
+{
+  "competition": "EFL",
+  "date": "2026-08-26",
+  "time": "04:00",
+  "home": "Nottingham Forest FC",
+  "away": "Leeds United FC"
+},
+{
+  "competition": "EFL",
+  "date": "2026-08-27",
+  "time": "03:45",
+  "home": "Tottenham Hotspur FC",
+  "away": "Charlton Athletic"
+}
 ]
