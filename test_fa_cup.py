@@ -2,7 +2,7 @@ from urllib.request import Request, urlopen
 import re
 from html import unescape
 
-URL = "https://www.thefa.com/competitions/thefacup/fixtures"
+URL = "https://thefa.com/competitions/thefacup/fixtures"
 
 print("Testing FA Cup official fixtures...")
 print("URL:", URL)
