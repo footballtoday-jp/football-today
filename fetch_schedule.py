@@ -243,6 +243,52 @@ for m in matches:
         "awayJp": ajp,
     })
 
+# 手入力カップ戦を追加
+if os.path.exists("cup_matches.json"):
+    with open("cup_matches.json", "r", encoding="utf-8") as f:
+        cup_matches = json.load(f)
+
+    CUP_LEAGUE_JA = {
+        "FA": "🏴 FAカップ",
+        "EFL": "🏴 カラバオカップ",
+        "EL": "🇪🇺 UEFAヨーロッパリーグ",
+        "CDR": "🇪🇸 コパ・デル・レイ",
+        "DFB": "🇩🇪 DFBポカール",
+        "CDF": "🇫🇷 クープ・ドゥ・フランス",
+        "KNVB": "🇳🇱 KNVBベーカー",
+    }
+
+    for m in cup_matches:
+        code = m["competition"]
+        home = m["home"]
+        away = m["away"]
+
+        home_n = norm(home)
+        away_n = norm(away)
+
+        # cup_matches.json の時刻は日本時間として入力
+        dt = datetime.fromisoformat(
+            f'{m["date"]}T{m["time"]}:00'
+        ).replace(tzinfo=JST)
+
+        # 00:00〜05:59は前日の試合として表示
+        display_dt = dt - timedelta(hours=6)
+
+        display_hour = dt.hour + 24 if dt.hour < 6 else dt.hour
+        display_time = f"{display_hour:02d}:{dt.minute:02d}"
+
+        out.append({
+            "dateJst": display_dt.date().isoformat(),
+            "timeJst": display_time,
+            "utcDate": dt.astimezone(timezone.utc).isoformat(),
+            "competition": code,
+            "league": CUP_LEAGUE_JA.get(code, code),
+            "homeNameJa": alias_name(home),
+            "awayNameJa": alias_name(away),
+            "homeJp": JP_PLAYERS.get(home_n, []),
+            "awayJp": JP_PLAYERS.get(away_n, []),
+        })
+
 out.sort(key=lambda x:(x["dateJst"], x["utcDate"]))
 with open("schedule.json","w",encoding="utf-8") as f:
     json.dump(out,f,ensure_ascii=False,indent=2)
