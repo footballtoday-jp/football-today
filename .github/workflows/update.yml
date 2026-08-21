@@ -20,7 +20,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
+          
+      - name: Debug fetch_schedule.py
+        run: |
+          grep -n "manual cup matches loaded" fetch_schedule.py || true
+          grep -n "cup_matches_input.txt" fetch_schedule.py || true
+          
       - name: Fetch schedule
         env:
           FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
