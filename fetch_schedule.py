@@ -32,6 +32,7 @@ JP_PLAYERS = {
    "tottenham hotspur fc": ["高井幸大"],
    "ipswich town fc": ["前田大然"],
    "hull city afc": ["守田英正"],
+   "hull city fc": ["守田英正"],
    "aston villa fc": ["鈴木彩艶"],
    "coventry city fc": ["坂元達裕"],
     
@@ -96,6 +97,7 @@ ALIASES = {
     "coventry city fc": "コヴェントリー・シティ",
     "ipswich town fc": "イプスウィッチ・タウン",
     "hull city afc": "ハル・シティ",
+    "hull city fc": "ハル・シティ",
     
      # Championship
     "southampton fc": "サウサンプトン",
