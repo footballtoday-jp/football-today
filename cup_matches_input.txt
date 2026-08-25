@@ -17,3 +17,5 @@ UECL|2026-08-28|01:45|SC Freiburg|Motherwell
 UECL|2026-08-28|01:45|AS Monaco FC|Górnik Zabrze
 UECL|2026-08-28|03:00|AFC Ajax|Sion
 EL|2026-08-28|02:00|Omonia|Sint-Truidense VV
+EFL|2026-08-26|03:45|Stoke City FC|Hull City FC
+EFL|2026-08-26|03:45|Southampton FC|West Ham United FC
