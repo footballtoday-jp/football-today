@@ -491,7 +491,6 @@ header{
 let allMatches = [];
 
 let startDay = new Date();
-startDay.setDate(startDay.getDate() - 1);
 
 let filter = "all";
 
@@ -898,6 +897,8 @@ async function loadSchedule(){
     today.setHours(
       0,0,0,0
     );
+
+    today.setDate(today.getDate() - 1);
 
     startDay = today;
 
