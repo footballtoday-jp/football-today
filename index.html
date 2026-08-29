@@ -894,11 +894,13 @@ async function loadSchedule(){
     const today =
       new Date();
 
+    if (today.getHours() < 6) {
+    today.setDate(today.getDate() - 1);
+}
+
     today.setHours(
       0,0,0,0
     );
-
-    today.setDate(today.getDate() - 1);
 
     startDay = today;
 
