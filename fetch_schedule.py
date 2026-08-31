@@ -229,6 +229,7 @@ def fetch_matches():
         )
 
         data = get_json(url)
+        print("returned dates:", sorted(set(m["utcDate"][:10] for m in data.get("matches", []))))
         all_matches.extend(data.get("matches", []))
 
     return {"matches": all_matches}
