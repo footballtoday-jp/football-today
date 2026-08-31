@@ -19,3 +19,10 @@ UECL|2026-08-28|03:00|AFC Ajax|Sion
 EL|2026-08-28|02:00|Omonia|Sint-Truidense VV
 EFL|2026-08-26|03:45|Stoke City FC|Hull City FC
 EFL|2026-08-26|03:45|Southampton FC|West Ham United FC
+EFL|2026-09-09|03:45|Crystal Palace FC|Middlesbrough FC
+EFL|2026-09-09|03:45|Sunderland AFC|Hull City FC
+EFL|2026-09-09|03:45|AFC Bournemouth|Lincoln City FC
+EFL|2026-09-09|03:45|Leyton Orient FC|Bradford City AFC
+EFL|2026-09-09|04:00|Millwall FC|Newcastle United FC
+EFL|2026-09-10|03:45|Everton FC|Wolverhampton Wanderers FC
+EFL|2026-09-10|04:00|Chelsea FC|Leeds United FC
