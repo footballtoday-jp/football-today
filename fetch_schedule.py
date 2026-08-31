@@ -215,7 +215,7 @@ def get_json(url):
 
 def fetch_matches():
     periods = [
-        (date_from, today - timedelta(days=1)),
+        (date_from, today),
         (today, date_to),
     ]
 
@@ -229,7 +229,6 @@ def fetch_matches():
         )
 
         data = get_json(url)
-        print("returned dates:", sorted(set(m["utcDate"][:10] for m in data.get("matches", []))))
         all_matches.extend(data.get("matches", []))
 
     return {"matches": all_matches}
