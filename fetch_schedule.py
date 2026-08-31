@@ -12,7 +12,7 @@ if not TOKEN:
 
 JST = ZoneInfo("Asia/Tokyo")
 today = datetime.now(JST).date()
-date_from = today
+date_from = today - timedelta(days=10)
 date_to = today + timedelta(days=10)
 
 # Current Free plan coverage used by this first version.
@@ -214,12 +214,24 @@ def get_json(url):
             )
 
 def fetch_matches():
-    url=(
-        f"{API}?competitions={COMPETITIONS}"
-        f"&dateFrom={date_from.isoformat()}"
-        f"&dateTo={date_to.isoformat()}"
-    )
-    return get_json(url)
+    periods = [
+        (date_from, today - timedelta(days=1)),
+        (today, date_to),
+    ]
+
+    all_matches = []
+
+    for start_date, end_date in periods:
+        url=(
+            f"{API}?competitions={COMPETITIONS}"
+            f"&dateFrom={start_date.isoformat()}"
+            f"&dateTo={end_date.isoformat()}"
+        )
+
+        data = get_json(url)
+        all_matches.extend(data.get("matches", []))
+
+    return {"matches": all_matches}
 
 data = fetch_matches()
 matches = data.get("matches", [])
