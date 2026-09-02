@@ -334,6 +334,7 @@ CUP_LEAGUE_JA = {
     "DFB": "🇩🇪 DFBポカール",
     "CDF": "🇫🇷 クープ・ドゥ・フランス",
     "KNVB": "🇳🇱 KNVBベーカー",
+    "BEL": "🇧🇪 ベルギー・プロ・リーグ",
 }
 
 for m in cup_matches:
