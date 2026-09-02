@@ -29,7 +29,7 @@ JP_PLAYERS = {
    "liverpool fc": ["遠藤航"],
    "crystal palace fc": ["鎌田大地", "冨安健洋"],
    "leeds united fc": ["田中碧"],
-   "tottenham hotspur fc": ["高井幸大"],
+   "tottenham hotspur fc": [],
    "ipswich town fc": ["前田大然"],
    "hull city afc": ["守田英正"],
    "hull city fc": ["守田英正"],
@@ -37,7 +37,7 @@ JP_PLAYERS = {
    "coventry city fc": ["坂元達裕"],
     
     # Championship
-    "southampton fc": ["菅原由勢", "松木玖生"],
+    "southampton fc": [ "松木玖生"],
     "blackburn rovers fc": ["大橋祐紀", "森下龍矢"],
     "birmingham city fc": ["岩田智輝", "藤本寛也"],
     "queens park rangers fc": ["斉藤光毅"],
@@ -47,7 +47,7 @@ JP_PLAYERS = {
     "valencia cf": ["佐藤龍之介"],
 
     # Serie A
-    # 現時点では登録なし
+    "cagliari calcio": ["菅原由勢"],
 
     # Bundesliga
     "fc bayern münchen": ["伊藤洋輝"],
@@ -64,9 +64,10 @@ JP_PLAYERS = {
     "le havre ac": ["瀬古歩夢", "水多海斗","中村草太"],
     "as monaco fc": ["南野拓実"],
     "as monaco": ["南野拓実"],
+    "lille osc": ["上田綺世"],
 
     # Eredivisie
-    "feyenoord rotterdam": ["渡辺剛", "上田綺世"],
+    "feyenoord rotterdam": ["渡辺剛"],
     "nec nijmegen": ["小川航基"],
     "psv": ["佐野航大"],
     "az": ["毎熊晟矢", "市原吏音"],
@@ -81,6 +82,7 @@ JP_PLAYERS = {
     "石渡ネルソン",
     "松澤海斗",
     "新川志音"
+    "高井幸大",
      ],
 }
 
@@ -112,6 +114,7 @@ ALIASES = {
 
     # Serie A
     "parma calcio 1913": "パルマ",
+    "cagliari calcio": "カリアリ",
 
     # Bundesliga
     "fc bayern münchen": "バイエルン・ミュンヘン",
@@ -129,6 +132,7 @@ ALIASES = {
     "as monaco": "モナコ",
     "le havre ac": "ル・アーヴル",
     "stade de reims": "スタッド・ランス",
+    "olympique lyonnais": "リヨン",
 
     # Eredivisie
     "afc ajax": "アヤックス",
