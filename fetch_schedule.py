@@ -127,6 +127,7 @@ ALIASES = {
     "fc internazionale milano": "インテル",
     "juventus fc": "ユヴェントス",
     "as roma": "ローマ",
+    "ssc napoli": "ナポリ",
 
     # Bundesliga
     "fc bayern münchen": "バイエルン・ミュンヘン",
