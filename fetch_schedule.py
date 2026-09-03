@@ -101,6 +101,10 @@ ALIASES = {
     "ipswich town fc": "イプスウィッチ・タウン",
     "hull city afc": "ハル・シティ",
     "hull city fc": "ハル・シティ",
+    "manchester united fc": "マンチェスター・ユナイテッド",
+    "manchester city fc": "マンチェスター・シティ",
+    "chelsea fc": "チェルシー",
+    "arsenal fc": "アーセナル",
     
      # Championship
     "southampton fc": "サウサンプトン",
@@ -112,10 +116,17 @@ ALIASES = {
     # La Liga
     "real sociedad de fútbol": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
+    "fc barcelona": "バルセロナ",
+    "real madrid cf": "レアル・マドリード",
+    "club atlético de madrid": "アトレティコ・マドリード",
 
     # Serie A
     "parma calcio 1913": "パルマ",
     "cagliari calcio": "カリアリ",
+    "ac milan": "ミラン",
+    "fc internazionale milano": "インテル",
+    "juventus fc": "ユヴェントス",
+    "as roma": "ローマ",
 
     # Bundesliga
     "fc bayern münchen": "バイエルン・ミュンヘン",
@@ -134,6 +145,7 @@ ALIASES = {
     "le havre ac": "ル・アーヴル",
     "stade de reims": "スタッド・ランス",
     "olympique lyonnais": "リヨン",
+    "paris saint-germain fc": "PSG",
 
     # Eredivisie
     "afc ajax": "アヤックス",
