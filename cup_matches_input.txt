@@ -24,7 +24,7 @@ EFL|2026-09-09|03:45|Sunderland AFC|Hull City FC
 EFL|2026-09-09|03:45|AFC Bournemouth|Lincoln City FC
 EFL|2026-09-09|03:45|Leyton Orient FC|Bradford City AFC
 EFL|2026-09-09|04:00|Millwall FC|Newcastle United FC
-EFL|2026-09-10|03:45|Everton FC|Wolverhampton Wanderers FC
+EFL|2026-09-17|03:45|Everton FC|Wolverhampton Wanderers FC
 EFL|2026-09-10|04:00|Chelsea FC|Leeds United FC
 BEL|2026-09-03|03:30|Sint-Truidense VV|Union Saint-Gilloise
 BEL|2026-09-06|03:45|Sint-Truidense VV|RAAL La Louvière
