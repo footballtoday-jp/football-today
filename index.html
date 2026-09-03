@@ -478,6 +478,11 @@ header{
 
 </div>
 
+<div class="mobile-league-filter">
+  <select id="leagueFilterSelectMobile">
+    <option value="all">リーグを選択 ▼</option>
+  </select>
+</div>
 
 <main id="matches">
 
@@ -762,14 +767,6 @@ function renderMobile(){
   const leagues = [...new Set(allMatches.map(m => m.league).filter(Boolean))].sort();
 
   let html = `
-  <div class="mobile-league-filter">
-    <select id="leagueFilterSelectMobile">
-      <option value="all">リーグを選択 ▼</option>
-      ${leagues.map(league => `
-        <option value="${league}" ${leagueFilter === league ? "selected" : ""}>${league}</option>
-      `).join("")}
-    </select>
-  </div>
 
   <div class="mobile-list">
   `;
@@ -877,6 +874,7 @@ function renderMobile(){
 function render(){
 
   updateDateTitle();
+  updateMobileLeagueOptions();
 
   const main =
     document.getElementById("matches");
@@ -1032,6 +1030,21 @@ document.querySelectorAll(".filter")
         render();
     }
 });
+
+function updateMobileLeagueOptions() {
+    const select = document.getElementById("leagueFilterSelectMobile");
+    if (!select) return;
+
+    const leagues = [...new Set(
+        allMatches.map(m => m.league).filter(Boolean)
+    )].sort();
+
+    select.innerHTML =
+        '<option value="all">リーグを選択 ▼</option>' +
+        leagues.map(league =>
+            `<option value="${league}" ${leagueFilter === league ? "selected" : ""}>${league}</option>`
+        ).join("");
+}
 
 loadSchedule();
 
