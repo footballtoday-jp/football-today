@@ -146,6 +146,7 @@ ALIASES = {
     "stade de reims": "スタッド・ランス",
     "olympique lyonnais": "リヨン",
     "paris saint-germain fc": "PSG",
+    "lille osc": "リール",
 
     # Eredivisie
     "afc ajax": "アヤックス",
