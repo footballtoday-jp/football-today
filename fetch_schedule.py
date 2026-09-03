@@ -65,6 +65,7 @@ JP_PLAYERS = {
     "as monaco fc": ["南野拓実"],
     "as monaco": ["南野拓実"],
     "lille osc": ["上田綺世"],
+    "olympique lyonnais": ["中村敬斗"],
 
     # Eredivisie
     "feyenoord rotterdam": ["渡辺剛"],
