@@ -742,13 +742,12 @@ function renderTable(){
 
   if(!total){
 
-    return `
-      <div class="empty">
-        この10日間の対象試合はありません。
-      </div>
+    return html + `
+        <div class="empty">
+            この10日間の対象試合はありません。
+        </div>
     `;
-
-  }
+}
 
   return html;
 
