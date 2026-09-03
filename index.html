@@ -502,6 +502,7 @@ let allMatches = [];
 let startDay = new Date();
 
 let filter = "all";
+let leagueFilter = "all";
 
 let viewMode = "normal";
 
@@ -620,6 +621,10 @@ function getGamesForDay(key){
 
   }
 
+  if (leagueFilter !== "all") {
+    games = games.filter(m => m.league === leagueFilter);
+}
+
   games.sort((a,b) =>
     String(a.timeJst || "")
       .localeCompare(
@@ -637,6 +642,7 @@ function getGamesForDay(key){
 function renderTable(){
 
   const dates = getDateList();
+  const leagues = [...new Set(allMatches.map(m => m.league).filter(Boolean))].sort();
 
   let html = "";
 
@@ -649,7 +655,14 @@ function renderTable(){
       <tr>
         <th>日付</th>
         <th>時刻</th>
-        <th>リーグ</th>
+        <th>
+         <select id="leagueFilterSelect">
+          <option value="all">リーグ ▼</option>
+          ${leagues.map(league => `
+            <option value="${league}" ${leagueFilter === league ? "selected" : ""}>${league}</option>
+          `).join("")}
+        </select>
+        </th>
         <th>ホーム</th>
         <th>日本人</th>
         <th>アウェイ</th>
@@ -990,6 +1003,12 @@ document.querySelectorAll(".filter")
 
 });
 
+  document.addEventListener("change", (e) => {
+    if (e.target && e.target.id === "leagueFilterSelect") {
+        leagueFilter = e.target.value;
+        render();
+    }
+});
 
 loadSchedule();
 
