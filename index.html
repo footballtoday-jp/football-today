@@ -759,8 +759,20 @@ function renderTable(){
 function renderMobile(){
 
   const dates = getDateList();
+  const leagues = [...new Set(allMatches.map(m => m.league).filter(Boolean))].sort();
 
-  let html = '<div class="mobile-list">';
+  let html = `
+  <div class="mobile-league-filter">
+    <select id="leagueFilterSelectMobile">
+      <option value="all">リーグを選択 ▼</option>
+      ${leagues.map(league => `
+        <option value="${league}" ${leagueFilter === league ? "selected" : ""}>${league}</option>
+      `).join("")}
+    </select>
+  </div>
+
+  <div class="mobile-list">
+  `;
 
   let total = 0;
 
@@ -1010,6 +1022,13 @@ document.querySelectorAll(".filter")
 
   document.addEventListener("change", (e) => {
     if (e.target && e.target.id === "leagueFilterSelect") {
+        leagueFilter = e.target.value;
+        render();
+    }
+});
+
+  document.addEventListener("change", (e) => {
+    if (e.target && e.target.id === "leagueFilterSelectMobile") {
         leagueFilter = e.target.value;
         render();
     }
