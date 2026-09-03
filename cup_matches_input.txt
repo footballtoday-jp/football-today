@@ -30,3 +30,4 @@ BEL|2026-09-03|03:30|Sint-Truidense VV|Union Saint-Gilloise
 BEL|2026-09-06|03:45|Sint-Truidense VV|RAAL La Louvière
 BEL|2026-09-12|23:00|SK Beveren|Sint-Truidense VV
 BEL|2026-09-20|23:00|Sint-Truidense VV|KVC Westerlo
+CI|2026-09-04|04:00|Cagliari Calcio|Hellas Verona FC
