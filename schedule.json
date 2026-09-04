@@ -176,19 +176,6 @@
     ]
   },
   {
-    "dateJst": "2026-08-25",
-    "timeJst": "28:00",
-    "utcDate": "2026-08-25T19:00:00Z",
-    "competition": "PD",
-    "league": "🇪🇸 ラ・リーガ",
-    "homeNameJa": "バレンシア",
-    "awayNameJa": "Real Betis Balompié",
-    "homeJp": [
-      "佐藤龍之介"
-    ],
-    "awayJp": []
-  },
-  {
     "dateJst": "2026-08-26",
     "timeJst": "27:45",
     "utcDate": "2026-08-26T18:45:00+00:00",
@@ -345,17 +332,6 @@
     "dateJst": "2026-08-28",
     "timeJst": "27:45",
     "utcDate": "2026-08-28T18:45:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "ミラン",
-    "awayNameJa": "Venezia FC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-28",
-    "timeJst": "27:45",
-    "utcDate": "2026-08-28T18:45:00Z",
     "competition": "FL1",
     "league": "🇫🇷 リーグ・アン",
     "homeNameJa": "リール",
@@ -363,6 +339,17 @@
     "homeJp": [
       "上田綺世"
     ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-28",
+    "timeJst": "27:45",
+    "utcDate": "2026-08-28T18:45:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "ミラン",
+    "awayNameJa": "Venezia FC",
+    "homeJp": [],
     "awayJp": []
   },
   {
@@ -423,24 +410,13 @@
     "utcDate": "2026-08-29T13:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "マインツ",
-    "awayNameJa": "SC Paderborn 07",
-    "homeJp": [
-      "川﨑颯太",
-      "佐野海舟"
-    ],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-29",
-    "timeJst": "22:30",
-    "utcDate": "2026-08-29T13:30:00Z",
-    "competition": "BL1",
-    "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "SV 07 Elversberg",
-    "awayNameJa": "Bayer 04 Leverkusen",
+    "homeNameJa": "1. FC Union Berlin",
+    "awayNameJa": "フランクフルト",
     "homeJp": [],
-    "awayJp": []
+    "awayJp": [
+      "堂安律",
+      "小杉啓太"
+    ]
   },
   {
     "dateJst": "2026-08-29",
@@ -477,13 +453,35 @@
     "utcDate": "2026-08-29T13:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "1. FC Union Berlin",
-    "awayNameJa": "フランクフルト",
+    "homeNameJa": "SV 07 Elversberg",
+    "awayNameJa": "Bayer 04 Leverkusen",
     "homeJp": [],
-    "awayJp": [
-      "堂安律",
-      "小杉啓太"
-    ]
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-29",
+    "timeJst": "22:30",
+    "utcDate": "2026-08-29T13:30:00Z",
+    "competition": "BL1",
+    "league": "🇩🇪 ブンデスリーガ",
+    "homeNameJa": "マインツ",
+    "awayNameJa": "SC Paderborn 07",
+    "homeJp": [
+      "川﨑颯太",
+      "佐野海舟"
+    ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-29",
+    "timeJst": "23:00",
+    "utcDate": "2026-08-29T14:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "AFC Bournemouth",
+    "awayNameJa": "Everton FC",
+    "homeJp": [],
+    "awayJp": []
   },
   {
     "dateJst": "2026-08-29",
@@ -544,17 +542,6 @@
   },
   {
     "dateJst": "2026-08-29",
-    "timeJst": "23:00",
-    "utcDate": "2026-08-29T14:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "AFC Bournemouth",
-    "awayNameJa": "Everton FC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-29",
     "timeJst": "23:30",
     "utcDate": "2026-08-29T14:30:00Z",
     "competition": "DED",
@@ -594,17 +581,6 @@
     "utcDate": "2026-08-29T16:30:00Z",
     "competition": "SA",
     "league": "🇮🇹 セリエA",
-    "homeNameJa": "US Sassuolo Calcio",
-    "awayNameJa": "Torino FC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-29",
-    "timeJst": "25:30",
-    "utcDate": "2026-08-29T16:30:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
     "homeNameJa": "AC Monza",
     "awayNameJa": "Udinese Calcio",
     "homeJp": [],
@@ -627,10 +603,10 @@
     "dateJst": "2026-08-29",
     "timeJst": "25:30",
     "utcDate": "2026-08-29T16:30:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "ACF Fiorentina",
-    "awayNameJa": "Frosinone Calcio",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "トッテナム",
+    "awayNameJa": "Newcastle United FC",
     "homeJp": [],
     "awayJp": []
   },
@@ -638,10 +614,21 @@
     "dateJst": "2026-08-29",
     "timeJst": "25:30",
     "utcDate": "2026-08-29T16:30:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "トッテナム",
-    "awayNameJa": "Newcastle United FC",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "US Sassuolo Calcio",
+    "awayNameJa": "Torino FC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-29",
+    "timeJst": "25:30",
+    "utcDate": "2026-08-29T16:30:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "ACF Fiorentina",
+    "awayNameJa": "Frosinone Calcio",
     "homeJp": [],
     "awayJp": []
   },
@@ -689,6 +676,17 @@
     "utcDate": "2026-08-29T18:45:00Z",
     "competition": "FL1",
     "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Stade Brestois 29",
+    "awayNameJa": "Toulouse FC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-29",
+    "timeJst": "27:45",
+    "utcDate": "2026-08-29T18:45:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
     "homeNameJa": "リヨン",
     "awayNameJa": "ル・アーヴル",
     "homeJp": [
@@ -699,17 +697,6 @@
       "水多海斗",
       "中村草太"
     ]
-  },
-  {
-    "dateJst": "2026-08-29",
-    "timeJst": "27:45",
-    "utcDate": "2026-08-29T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "AJ Auxerre",
-    "awayNameJa": "Angers SCO",
-    "homeJp": [],
-    "awayJp": []
   },
   {
     "dateJst": "2026-08-29",
@@ -728,8 +715,8 @@
     "utcDate": "2026-08-29T18:45:00Z",
     "competition": "FL1",
     "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Stade Brestois 29",
-    "awayNameJa": "Toulouse FC",
+    "homeNameJa": "AJ Auxerre",
+    "awayNameJa": "Angers SCO",
     "homeJp": [],
     "awayJp": []
   },
@@ -796,24 +783,24 @@
     "dateJst": "2026-08-30",
     "timeJst": "22:00",
     "utcDate": "2026-08-30T13:00:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Paris FC",
-    "awayNameJa": "OGC Nice",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "チェルシー",
+    "awayNameJa": "ブライトン",
     "homeJp": [],
-    "awayJp": []
+    "awayJp": [
+      "三笘薫"
+    ]
   },
   {
     "dateJst": "2026-08-30",
     "timeJst": "22:00",
     "utcDate": "2026-08-30T13:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "リーズ・ユナイテッド",
-    "awayNameJa": "Brentford FC",
-    "homeJp": [
-      "田中碧"
-    ],
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Paris FC",
+    "awayNameJa": "OGC Nice",
+    "homeJp": [],
     "awayJp": []
   },
   {
@@ -833,12 +820,12 @@
     "utcDate": "2026-08-30T13:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "チェルシー",
-    "awayNameJa": "ブライトン",
-    "homeJp": [],
-    "awayJp": [
-      "三笘薫"
-    ]
+    "homeNameJa": "リーズ・ユナイテッド",
+    "awayNameJa": "Brentford FC",
+    "homeJp": [
+      "田中碧"
+    ],
+    "awayJp": []
   },
   {
     "dateJst": "2026-08-30",
@@ -893,19 +880,6 @@
     "dateJst": "2026-08-30",
     "timeJst": "24:30",
     "utcDate": "2026-08-30T15:30:00Z",
-    "competition": "BL1",
-    "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "FC Augsburg",
-    "awayNameJa": "シャルケ",
-    "homeJp": [],
-    "awayJp": [
-      "田中聡"
-    ]
-  },
-  {
-    "dateJst": "2026-08-30",
-    "timeJst": "24:30",
-    "utcDate": "2026-08-30T15:30:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "マンチェスター・ユナイテッド",
@@ -913,6 +887,19 @@
     "homeJp": [],
     "awayJp": [
       "前田大然"
+    ]
+  },
+  {
+    "dateJst": "2026-08-30",
+    "timeJst": "24:30",
+    "utcDate": "2026-08-30T15:30:00Z",
+    "competition": "BL1",
+    "league": "🇩🇪 ブンデスリーガ",
+    "homeNameJa": "FC Augsburg",
+    "awayNameJa": "シャルケ",
+    "homeJp": [],
+    "awayJp": [
+      "田中聡"
     ]
   },
   {
@@ -954,6 +941,17 @@
     "dateJst": "2026-08-30",
     "timeJst": "27:45",
     "utcDate": "2026-08-30T18:45:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "SS Lazio",
+    "awayNameJa": "Genoa CFC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-08-30",
+    "timeJst": "27:45",
+    "utcDate": "2026-08-30T18:45:00Z",
     "competition": "FL1",
     "league": "🇫🇷 リーグ・アン",
     "homeNameJa": "モナコ",
@@ -961,17 +959,6 @@
     "homeJp": [
       "南野拓実"
     ],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-08-30",
-    "timeJst": "27:45",
-    "utcDate": "2026-08-30T18:45:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "SS Lazio",
-    "awayNameJa": "Genoa CFC",
-    "homeJp": [],
     "awayJp": []
   },
   {
@@ -1247,6 +1234,17 @@
     "dateJst": "2026-09-04",
     "timeJst": "28:00",
     "utcDate": "2026-09-04T19:00:00Z",
+    "competition": "PD",
+    "league": "🇪🇸 ラ・リーガ",
+    "homeNameJa": "Real Betis Balompié",
+    "awayNameJa": "レアル・マドリード",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-04",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-04T19:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "イプスウィッチ・タウン",
@@ -1257,17 +1255,6 @@
     "awayJp": [
       "遠藤航"
     ]
-  },
-  {
-    "dateJst": "2026-09-04",
-    "timeJst": "28:00",
-    "utcDate": "2026-09-04T19:00:00Z",
-    "competition": "PD",
-    "league": "🇪🇸 ラ・リーガ",
-    "homeNameJa": "Real Betis Balompié",
-    "awayNameJa": "レアル・マドリード",
-    "homeJp": [],
-    "awayJp": []
   },
   {
     "dateJst": "2026-09-04",
@@ -1337,6 +1324,17 @@
     "utcDate": "2026-09-05T13:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
+    "homeNameJa": "Bayer 04 Leverkusen",
+    "awayNameJa": "1. FC Union Berlin",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-05",
+    "timeJst": "22:30",
+    "utcDate": "2026-09-05T13:30:00Z",
+    "competition": "BL1",
+    "league": "🇩🇪 ブンデスリーガ",
     "homeNameJa": "SC Paderborn 07",
     "awayNameJa": "フライブルク",
     "homeJp": [],
@@ -1364,6 +1362,22 @@
     "utcDate": "2026-09-05T13:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
+    "homeNameJa": "ボルシアMG",
+    "awayNameJa": "SV 07 Elversberg",
+    "homeJp": [
+      "町野修斗",
+      "宇野禅斗",
+      "橋岡大樹",
+      "板倉滉"
+    ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-05",
+    "timeJst": "22:30",
+    "utcDate": "2026-09-05T13:30:00Z",
+    "competition": "BL1",
+    "league": "🇩🇪 ブンデスリーガ",
     "homeNameJa": "ホッフェンハイム",
     "awayNameJa": "ドルトムント",
     "homeJp": [
@@ -1375,29 +1389,13 @@
   },
   {
     "dateJst": "2026-09-05",
-    "timeJst": "22:30",
-    "utcDate": "2026-09-05T13:30:00Z",
-    "competition": "BL1",
-    "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "Bayer 04 Leverkusen",
-    "awayNameJa": "1. FC Union Berlin",
+    "timeJst": "23:00",
+    "utcDate": "2026-09-05T14:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "Brentford FC",
+    "awayNameJa": "Sunderland AFC",
     "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-05",
-    "timeJst": "22:30",
-    "utcDate": "2026-09-05T13:30:00Z",
-    "competition": "BL1",
-    "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "ボルシアMG",
-    "awayNameJa": "SV 07 Elversberg",
-    "homeJp": [
-      "町野修斗",
-      "宇野禅斗",
-      "橋岡大樹",
-      "板倉滉"
-    ],
     "awayJp": []
   },
   {
@@ -1420,14 +1418,25 @@
     "utcDate": "2026-09-05T14:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "ブライトン",
-    "awayNameJa": "リーズ・ユナイテッド",
-    "homeJp": [
-      "三笘薫"
-    ],
+    "homeNameJa": "マンチェスター・シティ",
+    "awayNameJa": "コヴェントリー・シティ",
+    "homeJp": [],
     "awayJp": [
-      "田中碧"
+      "坂元達裕"
     ]
+  },
+  {
+    "dateJst": "2026-09-05",
+    "timeJst": "23:00",
+    "utcDate": "2026-09-05T14:00:00Z",
+    "competition": "ELC",
+    "league": "🏴 EFLチャンピオンシップ",
+    "homeNameJa": "QPR",
+    "awayNameJa": "Middlesbrough FC",
+    "homeJp": [
+      "斉藤光毅"
+    ],
+    "awayJp": []
   },
   {
     "dateJst": "2026-09-05",
@@ -1439,19 +1448,6 @@
     "awayNameJa": "トッテナム",
     "homeJp": [],
     "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-05",
-    "timeJst": "23:00",
-    "utcDate": "2026-09-05T14:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "マンチェスター・シティ",
-    "awayNameJa": "コヴェントリー・シティ",
-    "homeJp": [],
-    "awayJp": [
-      "坂元達裕"
-    ]
   },
   {
     "dateJst": "2026-09-05",
@@ -1472,23 +1468,14 @@
     "utcDate": "2026-09-05T14:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "Brentford FC",
-    "awayNameJa": "Sunderland AFC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-05",
-    "timeJst": "23:00",
-    "utcDate": "2026-09-05T14:00:00Z",
-    "competition": "ELC",
-    "league": "🏴 EFLチャンピオンシップ",
-    "homeNameJa": "QPR",
-    "awayNameJa": "Middlesbrough FC",
+    "homeNameJa": "ブライトン",
+    "awayNameJa": "リーズ・ユナイテッド",
     "homeJp": [
-      "斉藤光毅"
+      "三笘薫"
     ],
-    "awayJp": []
+    "awayJp": [
+      "田中碧"
+    ]
   },
   {
     "dateJst": "2026-09-05",
@@ -1540,6 +1527,17 @@
     "dateJst": "2026-09-05",
     "timeJst": "25:30",
     "utcDate": "2026-09-05T16:30:00Z",
+    "competition": "PD",
+    "league": "🇪🇸 ラ・リーガ",
+    "homeNameJa": "Rayo Vallecano de Madrid",
+    "awayNameJa": "Real Racing Club de Santander",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-05",
+    "timeJst": "25:30",
+    "utcDate": "2026-09-05T16:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
     "homeNameJa": "シャルケ",
@@ -1550,17 +1548,6 @@
     "awayJp": [
       "伊藤洋輝"
     ]
-  },
-  {
-    "dateJst": "2026-09-05",
-    "timeJst": "25:30",
-    "utcDate": "2026-09-05T16:30:00Z",
-    "competition": "PD",
-    "league": "🇪🇸 ラ・リーガ",
-    "homeNameJa": "Rayo Vallecano de Madrid",
-    "awayNameJa": "Real Racing Club de Santander",
-    "homeJp": [],
-    "awayJp": []
   },
   {
     "dateJst": "2026-09-05",
@@ -1661,10 +1648,10 @@
     "dateJst": "2026-09-05",
     "timeJst": "28:00",
     "utcDate": "2026-09-05T19:00:00Z",
-    "competition": "DED",
-    "league": "🇳🇱 エールディヴィジ",
-    "homeNameJa": "Willem II Tilburg",
-    "awayNameJa": "SBV Excelsior",
+    "competition": "PD",
+    "league": "🇪🇸 ラ・リーガ",
+    "homeNameJa": "Villarreal CF",
+    "awayNameJa": "RC Deportivo La Coruña",
     "homeJp": [],
     "awayJp": []
   },
@@ -1672,10 +1659,10 @@
     "dateJst": "2026-09-05",
     "timeJst": "28:00",
     "utcDate": "2026-09-05T19:00:00Z",
-    "competition": "PD",
-    "league": "🇪🇸 ラ・リーガ",
-    "homeNameJa": "Villarreal CF",
-    "awayNameJa": "RC Deportivo La Coruña",
+    "competition": "DED",
+    "league": "🇳🇱 エールディヴィジ",
+    "homeNameJa": "Willem II Tilburg",
+    "awayNameJa": "SBV Excelsior",
     "homeJp": [],
     "awayJp": []
   },
@@ -1710,6 +1697,17 @@
     "utcDate": "2026-09-06T12:30:00Z",
     "competition": "DED",
     "league": "🇳🇱 エールディヴィジ",
+    "homeNameJa": "Telstar 1963",
+    "awayNameJa": "SC Cambuur-Leeuwarden",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-06",
+    "timeJst": "21:30",
+    "utcDate": "2026-09-06T12:30:00Z",
+    "competition": "DED",
+    "league": "🇳🇱 エールディヴィジ",
     "homeNameJa": "SC Heerenveen",
     "awayNameJa": "AZ",
     "homeJp": [],
@@ -1720,12 +1718,12 @@
   },
   {
     "dateJst": "2026-09-06",
-    "timeJst": "21:30",
-    "utcDate": "2026-09-06T12:30:00Z",
-    "competition": "DED",
-    "league": "🇳🇱 エールディヴィジ",
-    "homeNameJa": "Telstar 1963",
-    "awayNameJa": "SC Cambuur-Leeuwarden",
+    "timeJst": "22:00",
+    "utcDate": "2026-09-06T13:00:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "パルマ",
+    "awayNameJa": "AC Monza",
     "homeJp": [],
     "awayJp": []
   },
@@ -1744,32 +1742,21 @@
     "dateJst": "2026-09-06",
     "timeJst": "22:00",
     "utcDate": "2026-09-06T13:00:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "ES Troyes AC",
-    "awayNameJa": "RC Strasbourg Alsace",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-06",
-    "timeJst": "22:00",
-    "utcDate": "2026-09-06T13:00:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "パルマ",
-    "awayNameJa": "AC Monza",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-06",
-    "timeJst": "22:00",
-    "utcDate": "2026-09-06T13:00:00Z",
     "competition": "PL",
     "league": "🇬🇧 プレミアリーグ",
     "homeNameJa": "Everton FC",
     "awayNameJa": "マンチェスター・ユナイテッド",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-06",
+    "timeJst": "22:00",
+    "utcDate": "2026-09-06T13:00:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "ES Troyes AC",
+    "awayNameJa": "RC Strasbourg Alsace",
     "homeJp": [],
     "awayJp": []
   },
@@ -1978,12 +1965,10 @@
     "utcDate": "2026-09-08T16:45:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "Club Brugge KV",
-    "awayNameJa": "アストン・ヴィラ",
+    "homeNameJa": "PAE AEK",
+    "awayNameJa": "LASK Linz",
     "homeJp": [],
-    "awayJp": [
-      "鈴木彩艶"
-    ]
+    "awayJp": []
   },
   {
     "dateJst": "2026-09-08",
@@ -1991,10 +1976,12 @@
     "utcDate": "2026-09-08T16:45:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "PAE AEK",
-    "awayNameJa": "LASK Linz",
+    "homeNameJa": "Club Brugge KV",
+    "awayNameJa": "アストン・ヴィラ",
     "homeJp": [],
-    "awayJp": []
+    "awayJp": [
+      "鈴木彩艶"
+    ]
   },
   {
     "dateJst": "2026-09-08",
@@ -2089,9 +2076,22 @@
     "utcDate": "2026-09-08T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "レアル・マドリード",
-    "awayNameJa": "インテル",
+    "homeNameJa": "FC Porto",
+    "awayNameJa": "マンチェスター・シティ",
     "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-08",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-08T19:00:00Z",
+    "competition": "CL",
+    "league": "🇪🇺 UEFAチャンピオンズリーグ",
+    "homeNameJa": "リール",
+    "awayNameJa": "Real Betis Balompié",
+    "homeJp": [
+      "上田綺世"
+    ],
     "awayJp": []
   },
   {
@@ -2113,22 +2113,20 @@
     "utcDate": "2026-09-08T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "FC Porto",
-    "awayNameJa": "マンチェスター・シティ",
+    "homeNameJa": "レアル・マドリード",
+    "awayNameJa": "インテル",
     "homeJp": [],
     "awayJp": []
   },
   {
-    "dateJst": "2026-09-08",
-    "timeJst": "28:00",
-    "utcDate": "2026-09-08T19:00:00Z",
+    "dateJst": "2026-09-09",
+    "timeJst": "25:45",
+    "utcDate": "2026-09-09T16:45:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "リール",
-    "awayNameJa": "Real Betis Balompié",
-    "homeJp": [
-      "上田綺世"
-    ],
+    "homeNameJa": "VfB Stuttgart",
+    "awayNameJa": "Viking FK",
+    "homeJp": [],
     "awayJp": []
   },
   {
@@ -2143,17 +2141,6 @@
     "awayJp": [
       "渡辺剛"
     ]
-  },
-  {
-    "dateJst": "2026-09-09",
-    "timeJst": "25:45",
-    "utcDate": "2026-09-09T16:45:00Z",
-    "competition": "CL",
-    "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "VfB Stuttgart",
-    "awayNameJa": "Viking FK",
-    "homeJp": [],
-    "awayJp": []
   },
   {
     "dateJst": "2026-09-09",
@@ -2199,21 +2186,8 @@
     "utcDate": "2026-09-09T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "リヴァプール",
-    "awayNameJa": "アトレティコ・マドリード",
-    "homeJp": [
-      "遠藤航"
-    ],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-09",
-    "timeJst": "28:00",
-    "utcDate": "2026-09-09T19:00:00Z",
-    "competition": "CL",
-    "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "ナポリ",
-    "awayNameJa": "アーセナル",
+    "homeNameJa": "PSG",
+    "awayNameJa": "ŠK Slovan Bratislava",
     "homeJp": [],
     "awayJp": []
   },
@@ -2234,9 +2208,11 @@
     "utcDate": "2026-09-09T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "PSG",
-    "awayNameJa": "ŠK Slovan Bratislava",
-    "homeJp": [],
+    "homeNameJa": "リヴァプール",
+    "awayNameJa": "アトレティコ・マドリード",
+    "homeJp": [
+      "遠藤航"
+    ],
     "awayJp": []
   },
   {
@@ -2253,13 +2229,13 @@
     ]
   },
   {
-    "dateJst": "2026-09-10",
-    "timeJst": "25:45",
-    "utcDate": "2026-09-10T16:45:00Z",
+    "dateJst": "2026-09-09",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-09T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "Fenerbahçe SK",
-    "awayNameJa": "ローマ",
+    "homeNameJa": "ナポリ",
+    "awayNameJa": "アーセナル",
     "homeJp": [],
     "awayJp": []
   },
@@ -2278,12 +2254,34 @@
   },
   {
     "dateJst": "2026-09-10",
+    "timeJst": "25:45",
+    "utcDate": "2026-09-10T16:45:00Z",
+    "competition": "CL",
+    "league": "🇪🇺 UEFAチャンピオンズリーグ",
+    "homeNameJa": "Fenerbahçe SK",
+    "awayNameJa": "ローマ",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-10",
     "timeJst": "28:00",
     "utcDate": "2026-09-10T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "Como 1907",
-    "awayNameJa": "RB Leipzig",
+    "homeNameJa": "SK Slavia Praha",
+    "awayNameJa": "Racing Club de Lens",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-10",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-10T19:00:00Z",
+    "competition": "CL",
+    "league": "🇪🇺 UEFAチャンピオンズリーグ",
+    "homeNameJa": "マンチェスター・ユナイテッド",
+    "awayNameJa": "Sabah FK",
     "homeJp": [],
     "awayJp": []
   },
@@ -2306,19 +2304,8 @@
     "utcDate": "2026-09-10T19:00:00Z",
     "competition": "CL",
     "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "SK Slavia Praha",
-    "awayNameJa": "Racing Club de Lens",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-10",
-    "timeJst": "28:00",
-    "utcDate": "2026-09-10T19:00:00Z",
-    "competition": "CL",
-    "league": "🇪🇺 UEFAチャンピオンズリーグ",
-    "homeNameJa": "マンチェスター・ユナイテッド",
-    "awayNameJa": "Sabah FK",
+    "homeNameJa": "Como 1907",
+    "awayNameJa": "RB Leipzig",
     "homeJp": [],
     "awayJp": []
   },
@@ -2390,11 +2377,12 @@
     "utcDate": "2026-09-12T11:30:00Z",
     "competition": "ELC",
     "league": "🏴 EFLチャンピオンシップ",
-    "homeNameJa": "West Bromwich Albion FC",
-    "awayNameJa": "QPR",
+    "homeNameJa": "Derby County FC",
+    "awayNameJa": "バーミンガム",
     "homeJp": [],
     "awayJp": [
-      "斉藤光毅"
+      "岩田智輝",
+      "藤本寛也"
     ]
   },
   {
@@ -2403,12 +2391,11 @@
     "utcDate": "2026-09-12T11:30:00Z",
     "competition": "ELC",
     "league": "🏴 EFLチャンピオンシップ",
-    "homeNameJa": "Derby County FC",
-    "awayNameJa": "バーミンガム",
+    "homeNameJa": "West Bromwich Albion FC",
+    "awayNameJa": "QPR",
     "homeJp": [],
     "awayJp": [
-      "岩田智輝",
-      "藤本寛也"
+      "斉藤光毅"
     ]
   },
   {
@@ -2469,6 +2456,17 @@
     "utcDate": "2026-09-12T13:30:00Z",
     "competition": "BL1",
     "league": "🇩🇪 ブンデスリーガ",
+    "homeNameJa": "FC Augsburg",
+    "awayNameJa": "Bayer 04 Leverkusen",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "22:30",
+    "utcDate": "2026-09-12T13:30:00Z",
+    "competition": "BL1",
+    "league": "🇩🇪 ブンデスリーガ",
     "homeNameJa": "フライブルク",
     "awayNameJa": "ボルシアMG",
     "homeJp": [
@@ -2499,17 +2497,6 @@
   },
   {
     "dateJst": "2026-09-12",
-    "timeJst": "22:30",
-    "utcDate": "2026-09-12T13:30:00Z",
-    "competition": "BL1",
-    "league": "🇩🇪 ブンデスリーガ",
-    "homeNameJa": "FC Augsburg",
-    "awayNameJa": "Bayer 04 Leverkusen",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
     "timeJst": "23:00",
     "utcDate": "2026-09-12T14:00:00+00:00",
     "competition": "BEL",
@@ -2525,32 +2512,6 @@
       "石渡ネルソン",
       "松澤海斗",
       "新川志音高井幸大"
-    ]
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "23:00",
-    "utcDate": "2026-09-12T14:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "アストン・ヴィラ",
-    "awayNameJa": "Nottingham Forest FC",
-    "homeJp": [
-      "鈴木彩艶"
-    ],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "23:00",
-    "utcDate": "2026-09-12T14:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "チェルシー",
-    "awayNameJa": "ハル・シティ",
-    "homeJp": [],
-    "awayJp": [
-      "守田英正"
     ]
   },
   {
@@ -2592,6 +2553,32 @@
     ],
     "awayJp": [
       "前田大然"
+    ]
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "23:00",
+    "utcDate": "2026-09-12T14:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "アストン・ヴィラ",
+    "awayNameJa": "Nottingham Forest FC",
+    "homeJp": [
+      "鈴木彩艶"
+    ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "23:00",
+    "utcDate": "2026-09-12T14:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "チェルシー",
+    "awayNameJa": "ハル・シティ",
+    "homeJp": [],
+    "awayJp": [
+      "守田英正"
     ]
   },
   {
@@ -2672,6 +2659,17 @@
     "dateJst": "2026-09-12",
     "timeJst": "25:30",
     "utcDate": "2026-09-12T16:30:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "トッテナム",
+    "awayNameJa": "Everton FC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "25:30",
+    "utcDate": "2026-09-12T16:30:00Z",
     "competition": "PD",
     "league": "🇪🇸 ラ・リーガ",
     "homeNameJa": "Athletic Club",
@@ -2687,17 +2685,6 @@
     "league": "🇩🇪 ブンデスリーガ",
     "homeNameJa": "1. FC Köln",
     "awayNameJa": "ブレーメン",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "25:30",
-    "utcDate": "2026-09-12T16:30:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "トッテナム",
-    "awayNameJa": "Everton FC",
     "homeJp": [],
     "awayJp": []
   },
@@ -2721,43 +2708,6 @@
     "homeNameJa": "Fortuna Sittard",
     "awayNameJa": "アヤックス",
     "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "27:45",
-    "utcDate": "2026-09-12T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "AJ Auxerre",
-    "awayNameJa": "OGC Nice",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "27:45",
-    "utcDate": "2026-09-12T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "FC Lorient",
-    "awayNameJa": "Toulouse FC",
-    "homeJp": [],
-    "awayJp": []
-  },
-  {
-    "dateJst": "2026-09-12",
-    "timeJst": "27:45",
-    "utcDate": "2026-09-12T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "ル・アーヴル",
-    "awayNameJa": "Angers SCO",
-    "homeJp": [
-      "瀬古歩夢",
-      "水多海斗",
-      "中村草太"
-    ],
     "awayJp": []
   },
   {
@@ -2788,12 +2738,49 @@
   },
   {
     "dateJst": "2026-09-12",
+    "timeJst": "27:45",
+    "utcDate": "2026-09-12T18:45:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "ル・アーヴル",
+    "awayNameJa": "Angers SCO",
+    "homeJp": [
+      "瀬古歩夢",
+      "水多海斗",
+      "中村草太"
+    ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "27:45",
+    "utcDate": "2026-09-12T18:45:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "AJ Auxerre",
+    "awayNameJa": "OGC Nice",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
+    "timeJst": "27:45",
+    "utcDate": "2026-09-12T18:45:00Z",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "FC Lorient",
+    "awayNameJa": "Toulouse FC",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-12",
     "timeJst": "28:00",
     "utcDate": "2026-09-12T19:00:00Z",
-    "competition": "DED",
-    "league": "🇳🇱 エールディヴィジ",
-    "homeNameJa": "SC Cambuur-Leeuwarden",
-    "awayNameJa": "NEC",
+    "competition": "PD",
+    "league": "🇪🇸 ラ・リーガ",
+    "homeNameJa": "レアル・マドリード",
+    "awayNameJa": "Rayo Vallecano de Madrid",
     "homeJp": [],
     "awayJp": []
   },
@@ -2812,10 +2799,10 @@
     "dateJst": "2026-09-12",
     "timeJst": "28:00",
     "utcDate": "2026-09-12T19:00:00Z",
-    "competition": "PD",
-    "league": "🇪🇸 ラ・リーガ",
-    "homeNameJa": "レアル・マドリード",
-    "awayNameJa": "Rayo Vallecano de Madrid",
+    "competition": "DED",
+    "league": "🇳🇱 エールディヴィジ",
+    "homeNameJa": "SC Cambuur-Leeuwarden",
+    "awayNameJa": "NEC",
     "homeJp": [],
     "awayJp": []
   },
@@ -2856,16 +2843,14 @@
     "dateJst": "2026-09-13",
     "timeJst": "22:00",
     "utcDate": "2026-09-13T13:00:00Z",
-    "competition": "PL",
-    "league": "🇬🇧 プレミアリーグ",
-    "homeNameJa": "コヴェントリー・シティ",
-    "awayNameJa": "ブライトン",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "リール",
+    "awayNameJa": "ES Troyes AC",
     "homeJp": [
-      "坂元達裕"
+      "上田綺世"
     ],
-    "awayJp": [
-      "三笘薫"
-    ]
+    "awayJp": []
   },
   {
     "dateJst": "2026-09-13",
@@ -2882,14 +2867,16 @@
     "dateJst": "2026-09-13",
     "timeJst": "22:00",
     "utcDate": "2026-09-13T13:00:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "リール",
-    "awayNameJa": "ES Troyes AC",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "コヴェントリー・シティ",
+    "awayNameJa": "ブライトン",
     "homeJp": [
-      "上田綺世"
+      "坂元達裕"
     ],
-    "awayJp": []
+    "awayJp": [
+      "三笘薫"
+    ]
   },
   {
     "dateJst": "2026-09-13",
@@ -3002,10 +2989,10 @@
     "dateJst": "2026-09-13",
     "timeJst": "27:45",
     "utcDate": "2026-09-13T18:45:00Z",
-    "competition": "SA",
-    "league": "🇮🇹 セリエA",
-    "homeNameJa": "US Sassuolo Calcio",
-    "awayNameJa": "ユヴェントス",
+    "competition": "FL1",
+    "league": "🇫🇷 リーグ・アン",
+    "homeNameJa": "Stade Brestois 29",
+    "awayNameJa": "PSG",
     "homeJp": [],
     "awayJp": []
   },
@@ -3013,10 +3000,10 @@
     "dateJst": "2026-09-13",
     "timeJst": "27:45",
     "utcDate": "2026-09-13T18:45:00Z",
-    "competition": "FL1",
-    "league": "🇫🇷 リーグ・アン",
-    "homeNameJa": "Stade Brestois 29",
-    "awayNameJa": "PSG",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "US Sassuolo Calcio",
+    "awayNameJa": "ユヴェントス",
     "homeJp": [],
     "awayJp": []
   },
@@ -3030,6 +3017,63 @@
     "awayNameJa": "アトレティコ・マドリード",
     "homeJp": [
       "久保建英"
+    ],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-14",
+    "timeJst": "25:30",
+    "utcDate": "2026-09-14T16:30:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "Torino FC",
+    "awayNameJa": "ローマ",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-14",
+    "timeJst": "25:30",
+    "utcDate": "2026-09-14T16:30:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "Como 1907",
+    "awayNameJa": "パルマ",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-14",
+    "timeJst": "27:45",
+    "utcDate": "2026-09-14T18:45:00Z",
+    "competition": "SA",
+    "league": "🇮🇹 セリエA",
+    "homeNameJa": "インテル",
+    "awayNameJa": "Udinese Calcio",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-14",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-14T19:00:00Z",
+    "competition": "PD",
+    "league": "🇪🇸 ラ・リーガ",
+    "homeNameJa": "Villarreal CF",
+    "awayNameJa": "Real Betis Balompié",
+    "homeJp": [],
+    "awayJp": []
+  },
+  {
+    "dateJst": "2026-09-14",
+    "timeJst": "28:00",
+    "utcDate": "2026-09-14T19:00:00Z",
+    "competition": "PL",
+    "league": "🇬🇧 プレミアリーグ",
+    "homeNameJa": "リーズ・ユナイテッド",
+    "awayNameJa": "Newcastle United FC",
+    "homeJp": [
+      "田中碧"
     ],
     "awayJp": []
   },
