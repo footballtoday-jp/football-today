@@ -179,6 +179,7 @@ ELC_TARGET_TEAMS = {
     "birmingham city fc",
     "queens park rangers fc",
     "bristol city fc",
+    "burnley fc",
 }
 
 def norm(s):
