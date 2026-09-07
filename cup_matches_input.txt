@@ -31,3 +31,29 @@ BEL|2026-09-06|03:45|Sint-Truidense VV|RAAL La Louvière
 BEL|2026-09-12|23:00|SK Beveren|Sint-Truidense VV
 BEL|2026-09-20|23:00|Sint-Truidense VV|KVC Westerlo
 CI|2026-09-04|04:00|Cagliari Calcio|Hellas Verona FC
+EFL|2026-09-16|03:45|West Ham United FC|Fulham FC
+EFL|2026-09-16|04:00|Liverpool FC|Tottenham Hotspur FC
+EFL|2026-09-17|03:45|Fleetwood Town FC|Sheffield United FC
+EFL|2026-09-17|04:00|Manchester United FC|Brighton & Hove Albion FC
+EFL|2026-09-17|04:00|Coventry City FC|Aston Villa FC
+EFL|2026-09-18|03:30|Manchester City FC|Norwich City FC
+EL|2026-09-17|01:45|Ararat-Armenia|Sparta Praha
+EL|2026-09-17|01:45|Omonia|Celta
+EL|2026-09-17|04:00|AC Milan|Benfica
+EL|2026-09-17|04:00|Bayer Leverkusen|Celje
+EL|2026-09-17|04:00|Hapoel Beer-Sheva|GNK Dinamo
+EL|2026-09-17|04:00|Olympiacos|Jagiellonia
+EL|2026-09-17|04:00|Anderlecht|Olympique Lyonnais
+EL|2026-09-17|04:00|Sturm Graz|Rennes
+EL|2026-09-17|04:00|Sunderland AFC|AZ Alkmaar
+EL|2026-09-18|01:45|OFI Crete|TSG 1899 Hoffenheim
+EL|2026-09-18|01:45|Levski Sofia|Salzburg
+EL|2026-09-18|04:00|Besiktas|Marseille
+EL|2026-09-18|04:00|Celtic FC|Ferencvaros
+EL|2026-09-18|04:00|Crystal Palace FC|Lech Poznan
+EL|2026-09-18|04:00|Viktoria Plzen|Union Saint-Gilloise
+EL|2026-09-18|04:00|Juventus FC|NEC Nijmegen
+EL|2026-09-18|04:00|Lillestrom|Torreense
+EL|2026-09-18|04:00|Real Sociedad|AFC Bournemouth
+CI|2026-09-16|01:00|Genoa CFC|FC Südtirol
+CI|2026-09-16|04:00|ACF Fiorentina|Pisa SC
