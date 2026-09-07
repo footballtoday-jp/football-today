@@ -42,6 +42,7 @@ JP_PLAYERS = {
     "birmingham city fc": ["岩田智輝", "藤本寛也"],
     "queens park rangers fc": ["斉藤光毅"],
     "bristol city fc": ["平河悠"],
+    "burnley fc": ["旗手怜央"],
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
     "valencia cf": ["佐藤龍之介"],
@@ -112,6 +113,7 @@ ALIASES = {
     "birmingham city fc": "バーミンガム",
     "queens park rangers fc": "QPR",
     "bristol city fc": "ブリストル・シティ",
+    "burnley fc": "バーンリー",
 
     # La Liga
     "real sociedad de fútbol": "レアル・ソシエダ",
