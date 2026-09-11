@@ -86,6 +86,7 @@ JP_PLAYERS = {
     "新川志音"
     "高井幸大",
      ],
+    "kvc westerlo": ["齋藤俊輔"],
 }
 
 ALIASES = {
@@ -160,6 +161,7 @@ ALIASES = {
 
     # Belgian Pro League
     "sint-truidense vv": "シント＝トロイデン",
+    "kvc westerlo": "ウェステルロー",
 }
 
 LEAGUE_JA = {
