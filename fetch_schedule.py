@@ -43,8 +43,10 @@ JP_PLAYERS = {
     "queens park rangers fc": ["斉藤光毅"],
     "bristol city fc": ["平河悠"],
     "burnley fc": ["旗手怜央"],
+    
     # La Liga
     "real sociedad de fútbol": ["久保建英"],
+    "real sociedad": ["久保建英"],
     "valencia cf": ["佐藤龍之介"],
 
     # Serie A
@@ -70,9 +72,9 @@ JP_PLAYERS = {
 
     # Eredivisie
     "feyenoord rotterdam": ["渡辺剛"],
-    "nec nijmegen": ["小川航基"],
     "psv": ["佐野航大"],
     "az": ["毎熊晟矢", "市原吏音"],
+    "az alkmaar": ["毎熊晟矢", "市原吏音"],
     "sparta rotterdam": ["三戸舜介"],
     
     # Belgian Pro League
@@ -107,6 +109,8 @@ ALIASES = {
     "manchester city fc": "マンチェスター・シティ",
     "chelsea fc": "チェルシー",
     "arsenal fc": "アーセナル",
+    "sunderland afc": "サンダーランド",
+    "afc bournemouth": "ボーンマス",
     
      # Championship
     "southampton fc": "サウサンプトン",
@@ -118,10 +122,12 @@ ALIASES = {
 
     # La Liga
     "real sociedad de fútbol": "レアル・ソシエダ",
+    "real sociedad": "レアル・ソシエダ",
     "valencia cf": "バレンシア",
     "fc barcelona": "バルセロナ",
     "real madrid cf": "レアル・マドリード",
     "club atlético de madrid": "アトレティコ・マドリード",
+    "celta": "セルタ",
 
     # Serie A
     "parma calcio 1913": "パルマ",
@@ -142,6 +148,7 @@ ALIASES = {
     "tsg 1899 hoffenheim": "ホッフェンハイム",
     "fc schalke 04": "シャルケ",
     "borussia dortmund": "ドルトムント",
+    "bayer leverkusen": "レヴァークーゼン",
 
     # Ligue 1
     "as monaco fc": "モナコ",
@@ -151,6 +158,8 @@ ALIASES = {
     "olympique lyonnais": "リヨン",
     "paris saint-germain fc": "PSG",
     "lille osc": "リール",
+    "rennes": "レンヌ",
+    "marseille": "マルセイユ",
 
     # Eredivisie
     "afc ajax": "アヤックス",
@@ -158,10 +167,61 @@ ALIASES = {
     "nec nijmegen": "NECナイメヘン",
     "psv": "PSV",
     "sparta rotterdam": "スパルタ・ロッテルダム",
+    "az alkmaar": "AZ",
 
     # Belgian Pro League
     "sint-truidense vv": "シント＝トロイデン",
     "kvc westerlo": "ウェステルロー",
+    "anderlecht": "アンデルレヒト",
+    "union saint-gilloise": "ユニオン・サン＝ジロワーズ",
+
+    # Portuguese League
+    "benfica": "ベンフィカ",
+    "torreense": "トレエンセ",
+
+    # Scottish League
+    "celtic fc": "セルティック",
+
+    # Austrian League
+    "sturm graz": "シュトゥルム・グラーツ",
+    "salzburg": "ザルツブルク",
+
+    # Greek League
+    "olympiacos": "オリンピアコス",
+    "ofi crete": "OFIクレタ",
+
+    # Czech League
+    "sparta praha": "スパルタ・プラハ",
+    "viktoria plzen": "ヴィクトリア・プルゼニ",
+
+    # Polish League
+    "jagiellonia": "ヤギエロニア",
+    "lech poznan": "レフ・ポズナン",
+
+    # Turkish League
+    "besiktas": "ベシクタシュ",
+
+    # Norwegian League
+    "lillestrom": "リールストロム",
+
+    # Serbian/Cypriot/Armenian etc.
+    "omonia": "オモニア",
+    "ararat-armenia": "アララト・アルメニア",
+
+    # Slovenian League
+    "celje": "ツェリェ",
+
+    # Israeli League
+    "hapoel beer-sheva": "ハポエル・ベエルシェバ",
+
+    # Croatian League
+    "gnk dinamo": "ディナモ・ザグレブ",
+
+    # Bulgarian League
+    "levski sofia": "レフスキ・ソフィア",
+
+    # Hungarian League
+    "ferencvaros": "フェレンツヴァーロシュ",
 }
 
 LEAGUE_JA = {
