@@ -102,33 +102,6 @@ UECL|2026-10-16|04:00|Hearts|Nordsjaelland
 UECL|2026-10-16|04:00|Sint-Truidense VV|Iberia Tbilisi
 UECL|2026-10-16|04:00|Freiburg|Jablonec
 UECL|2026-10-16|04:00|Brann|Lincoln Red Imps
-ELC|2026-10-10|04:00|West Ham United FC|Queens Park Rangers FC
-ELC|2026-10-10|20:30|West Bromwich Albion FC|Birmingham City FC
-ELC|2026-10-10|20:30|Charlton Athletic|Bristol City FC
-ELC|2026-10-10|23:00|Blackburn Rovers FC|Cardiff City FC
-ELC|2026-10-10|23:00|Watford FC|Burnley FC
-ELC|2026-10-11|20:00|Southampton FC|Portsmouth FC
-ELC|2026-10-14|03:45|Bristol City FC|Blackburn Rovers FC
-ELC|2026-10-14|03:45|Burnley FC|Charlton Athletic
-ELC|2026-10-14|04:00|Birmingham City FC|Preston North End FC
-ELC|2026-10-15|03:45|Queens Park Rangers FC|Derby County FC
-ELC|2026-10-15|03:45|Norwich City FC|Southampton FC
-ELC|2026-10-17|04:00|Burnley FC|Wolverhampton Wanderers FC
-ELC|2026-10-17|23:00|Southampton FC|Bolton Wanderers FC
-ELC|2026-10-17|23:00|West Bromwich Albion FC|Blackburn Rovers FC
-ELC|2026-10-17|23:00|Birmingham City FC|Queens Park Rangers FC
-ELC|2026-10-17|23:00|Bristol City FC|Sheffield United FC
-ELC|2026-10-24|23:00|West Ham United FC|Southampton FC
-ELC|2026-10-24|23:00|Blackburn Rovers FC|Wrexham FC
-ELC|2026-10-24|23:00|Queens Park Rangers FC|Swansea City AFC
-ELC|2026-10-24|23:00|Stoke City FC|Bristol City FC
-ELC|2026-10-24|23:00|Lincoln City FC|Burnley FC
-ELC|2026-10-24|23:00|Cardiff City FC|Birmingham City FC
-ELC|2026-11-01|00:00|Southampton FC|Queens Park Rangers FC
-ELC|2026-11-01|00:00|Swansea City AFC|Blackburn Rovers FC
-ELC|2026-11-08|00:00|Queens Park Rangers FC|Lincoln City FC
-ELC|2026-11-01|00:00|Bolton Wanderers FC|Bristol City FC
-ELC|2026-11-01|00:00|Burnley FC|Portsmouth FC
 EFL|2026-10-28|04:00|Fleetwood Town FC|Arsenal FC
 EFL|2026-10-28|03:45|Bradford City AFC|Peterborough United FC
 EFL|2026-10-29|03:30|Manchester City FC|Brighton & Hove Albion FC
@@ -279,30 +252,6 @@ UECL|2026-12-18|05:00|Panathinaikos|Brighton & Hove Albion FC
 UECL|2026-12-18|05:00|CSKA Sofia|Thun
 UECL|2026-12-18|05:00|Braga|Egnatia
 UECL|2026-12-18|05:00|Universitatea Craiova|Copenhagen
-ELC|2026-11-04|04:45|Queens Park Rangers FC|Burnley FC
-ELC|2026-11-04|05:00|West Bromwich Albion FC|Southampton FC
-ELC|2026-11-04|05:00|Birmingham City FC|Millwall FC
-ELC|2026-11-05|05:00|Bristol City FC|Wolverhampton Wanderers FC
-ELC|2026-11-07|21:30|Bristol City FC|Norwich City FC
-ELC|2026-11-08|00:00|Birmingham City FC|Swansea City AFC
-ELC|2026-11-08|00:00|Blackburn Rovers FC|West Ham United FC
-ELC|2026-11-08|00:00|Cardiff City FC|Burnley FC
-ELC|2026-11-08|00:00|Preston North End FC|Southampton FC
-ELC|2026-11-08|00:00|Queens Park Rangers FC|Lincoln City FC
-ELC|2026-11-21|21:30|Millwall FC|Queens Park Rangers FC
-ELC|2026-11-21|21:30|Southampton FC|Derby County FC
-ELC|2026-11-22|21:00|Burnley FC|Blackburn Rovers FC
-ELC|2026-11-25|04:45|Bristol City FC|Wrexham FC
-ELC|2026-11-25|04:45|Norwich City FC|Queens Park Rangers FC
-ELC|2026-11-25|04:45|Sheffield United FC|Southampton FC
-ELC|2026-11-26|04:45|Burnley FC|Birmingham City FC
-ELC|2026-11-26|04:45|Watford FC|Blackburn Rovers FC
-ELC|2026-11-28|05:00|Southampton FC|Middlesbrough FC
-ELC|2026-11-28|21:30|Blackburn Rovers FC|Charlton Athletic
-ELC|2026-11-29|00:00|Birmingham City FC|Bolton Wanderers FC
-ELC|2026-11-29|00:00|Millwall FC|Burnley FC
-ELC|2026-11-29|00:00|Queens Park Rangers FC|Sheffield United FC
-ELC|2026-11-29|00:00|West Bromwich Albion FC|Bristol City FC
 KNVB|2026-10-29|02:45|Sparta Rotterdam|Fortuna Sittard
 EL|2026-11-27|02:45|Besiktas|Hapoel Beer-Sheva
 EL|2026-11-27|02:45|Salzburg|Ararat-Armenia
@@ -358,40 +307,6 @@ EL|2027-01-22|05:00|Lech Poznan|Torreense
 EL|2027-01-22|05:00|Levski Sofia|AC Milan
 EL|2027-01-22|05:00|Anderlecht|Sunderland AFC
 EL|2027-01-22|05:00|Rennes|Omonia
-ELC|2026-12-05|21:30|Bolton Wanderers FC|Blackburn Rovers FC
-ELC|2026-12-05|21:30|Bristol City FC|Swansea City AFC
-ELC|2026-12-06|00:00|Charlton Athletic|Birmingham City FC
-ELC|2026-12-06|00:00|Stoke City FC|Queens Park Rangers FC
-ELC|2026-12-06|00:00|Wolverhampton Wanderers FC|Southampton FC
-ELC|2026-12-06|21:00|Burnley FC|Preston North End FC
-ELC|2026-12-09|04:45|Blackburn Rovers FC|Norwich City FC
-ELC|2026-12-09|04:45|Queens Park Rangers FC|Wolverhampton Wanderers FC
-ELC|2026-12-09|05:00|Birmingham City FC|Watford FC
-ELC|2026-12-10|04:45|Derby County FC|Bristol City FC
-ELC|2026-12-10|05:00|Southampton FC|Burnley FC
-ELC|2026-12-12|05:00|Bolton Wanderers FC|Wrexham FC
-ELC|2026-12-12|21:30|Queens Park Rangers FC|Watford FC
-ELC|2026-12-13|00:00|Blackburn Rovers FC|Derby County FC
-ELC|2026-12-13|00:00|Cardiff City FC|Southampton FC
-ELC|2026-12-13|00:00|Portsmouth FC|Birmingham City FC
-ELC|2026-12-13|00:00|Sheffield United FC|Burnley FC
-ELC|2026-12-13|00:00|West Ham United FC|Bristol City FC
-ELC|2026-12-19|21:30|Watford FC|Bolton Wanderers FC
-ELC|2026-12-20|00:00|Birmingham City FC|West Ham United FC
-ELC|2026-12-20|00:00|Bristol City FC|Cardiff City FC
-ELC|2026-12-20|00:00|Burnley FC|Stoke City FC
-ELC|2026-12-20|00:00|Southampton FC|Blackburn Rovers FC
-ELC|2026-12-20|00:00|Wrexham FC|Queens Park Rangers FC
-ELC|2026-12-27|00:00|Blackburn Rovers FC|Birmingham City FC
-ELC|2026-12-27|00:00|Bolton Wanderers FC|Burnley FC
-ELC|2026-12-27|00:00|Charlton Athletic|Southampton FC
-ELC|2026-12-27|00:00|Queens Park Rangers FC|Bristol City FC
-ELC|2026-12-30|03:00|Wrexham FC|Blackburn Rovers FC
-ELC|2026-12-30|04:45|Bristol City FC|Stoke City FC
-ELC|2026-12-30|04:45|Burnley FC|Lincoln City FC
-ELC|2026-12-30|04:45|Southampton FC|West Ham United FC
-ELC|2026-12-30|04:45|Swansea City AFC|Queens Park Rangers FC
-ELC|2026-12-30|05:00|Birmingham City FC|Cardiff City FC
 BEL|2026-11-21|04:45|Cercle Brugge|KVC Westerlo
 BEL|2026-11-21|23:00|Sporting Charleroi|Sint-Truidense VV
 BEL|2026-11-29|00:00|KVC Westerlo|RAAL La Louvière
