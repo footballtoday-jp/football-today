@@ -58,3 +58,341 @@ EL|2026-09-18|04:00|Lillestrom|Torreense
 EL|2026-09-18|04:00|Real Sociedad|AFC Bournemouth
 CI|2026-09-16|01:00|Genoa CFC|FC Südtirol
 CI|2026-09-16|04:00|ACF Fiorentina|Pisa SC
+BEL|2026-10-11|01:30|KVC Westerlo|Royal Antwerp
+BEL|2026-10-12|02:15|KV Mechelen|Sint-Truidense VV
+BEL|2026-10-24|03:45|KVC Westerlo|SK Beveren
+BEL|2026-10-25|23:00|Club Brugge|Sint-Truidense VV
+BEL|2026-11-01|03:45|RSC Anderlecht|KVC Westerlo
+BEL|2026-11-01|23:00|Sint-Truidense VV|OH Leuven
+BEL|2026-11-08|23:00|KVC Westerlo|Sporting Charleroi
+BEL|2026-11-08|03:45|Sint-Truidense VV|SV Zulte Waregem
+EL|2026-10-16|01:45|Sparta Praha|Lillestrom
+EL|2026-10-16|01:45|AZ Alkmaar|Hapoel Beer-Sheva
+EL|2026-10-16|01:45|Salzburg|AC Milan
+EL|2026-10-16|01:45|Lech Poznan|Bayer Leverkusen
+EL|2026-10-16|01:45|Celje|Omonia
+EL|2026-10-16|01:45|Olympique Lyonnais|Crystal Palace FC
+EL|2026-10-16|01:45|Union Saint-Gilloise|Real Sociedad
+EL|2026-10-16|01:45|Torreense|Sunderland AFC
+EL|2026-10-16|04:00|AFC Bournemouth|Sturm Graz
+EL|2026-10-16|04:00|Ferencvaros|Viktoria Plzen
+EL|2026-10-16|04:00|GNK Dinamo|Anderlecht
+EL|2026-10-16|04:00|Jagiellonia|Ararat-Armenia
+EL|2026-10-16|04:00|NEC Nijmegen|Levski Sofia
+EL|2026-10-16|04:00|Marseille|Olympiacos
+EL|2026-10-16|04:00|Celta|Juventus FC
+EL|2026-10-16|04:00|Benfica|Celtic FC
+EL|2026-10-16|04:00|Rennes|OFI Crete
+EL|2026-10-16|04:00|TSG 1899 Hoffenheim|Besiktas
+UECL|2026-10-16|01:45|Lugano|Crvena Zvezda
+UECL|2026-10-16|01:45|Hajduk Split|AFC Ajax
+UECL|2026-10-16|01:45|Gent|Aarhus
+UECL|2026-10-16|01:45|Egnatia|Midtjylland
+UECL|2026-10-16|01:45|KuPS Kuopio|Trabzonspor
+UECL|2026-10-16|01:45|Mjallby|Inter Escaldes
+UECL|2026-10-16|01:45|Panathinaikos|Borac
+UECL|2026-10-16|01:45|CSKA Sofia|Monaco
+UECL|2026-10-16|01:45|Riga|Kairat Almaty
+UECL|2026-10-16|01:45|Universitatea Craiova|Getafe
+UECL|2026-10-16|04:00|Atalanta|Pafos
+UECL|2026-10-16|04:00|Brighton & Hove Albion FC|Kauno Zalgiris
+UECL|2026-10-16|04:00|Copenhagen|Braga
+UECL|2026-10-16|04:00|Twente|Thun
+UECL|2026-10-16|04:00|Hearts|Nordsjaelland
+UECL|2026-10-16|04:00|Sint-Truidense VV|Iberia Tbilisi
+UECL|2026-10-16|04:00|Freiburg|Jablonec
+UECL|2026-10-16|04:00|Brann|Lincoln Red Imps
+ELC|2026-10-10|04:00|West Ham United FC|Queens Park Rangers FC
+ELC|2026-10-10|20:30|West Bromwich Albion FC|Birmingham City FC
+ELC|2026-10-10|20:30|Charlton Athletic|Bristol City FC
+ELC|2026-10-10|23:00|Blackburn Rovers FC|Cardiff City FC
+ELC|2026-10-10|23:00|Watford FC|Burnley FC
+ELC|2026-10-11|20:00|Southampton FC|Portsmouth FC
+ELC|2026-10-14|03:45|Bristol City FC|Blackburn Rovers FC
+ELC|2026-10-14|03:45|Burnley FC|Charlton Athletic
+ELC|2026-10-14|04:00|Birmingham City FC|Preston North End FC
+ELC|2026-10-15|03:45|Queens Park Rangers FC|Derby County FC
+ELC|2026-10-15|03:45|Norwich City FC|Southampton FC
+ELC|2026-10-17|04:00|Burnley FC|Wolverhampton Wanderers FC
+ELC|2026-10-17|23:00|Southampton FC|Bolton Wanderers FC
+ELC|2026-10-17|23:00|West Bromwich Albion FC|Blackburn Rovers FC
+ELC|2026-10-17|23:00|Birmingham City FC|Queens Park Rangers FC
+ELC|2026-10-17|23:00|Bristol City FC|Sheffield United FC
+ELC|2026-10-24|23:00|West Ham United FC|Southampton FC
+ELC|2026-10-24|23:00|Blackburn Rovers FC|Wrexham FC
+ELC|2026-10-24|23:00|Queens Park Rangers FC|Swansea City AFC
+ELC|2026-10-24|23:00|Stoke City FC|Bristol City FC
+ELC|2026-10-24|23:00|Lincoln City FC|Burnley FC
+ELC|2026-10-24|23:00|Cardiff City FC|Birmingham City FC
+ELC|2026-11-01|00:00|Southampton FC|Queens Park Rangers FC
+ELC|2026-11-01|00:00|Swansea City AFC|Blackburn Rovers FC
+ELC|2026-11-08|00:00|Queens Park Rangers FC|Lincoln City FC
+ELC|2026-11-01|00:00|Bolton Wanderers FC|Bristol City FC
+ELC|2026-11-01|00:00|Burnley FC|Portsmouth FC
+EFL|2026-10-28|04:00|Fleetwood Town FC|Arsenal FC
+EFL|2026-10-28|03:45|Bradford City AFC|Peterborough United FC
+EFL|2026-10-29|03:30|Manchester City FC|Brighton & Hove Albion FC
+EFL|2026-10-29|03:45|Sunderland AFC|Brentford FC
+EFL|2026-10-29|04:00|Liverpool FC|Chelsea FC
+EFL|2026-10-29|03:45|Fulham FC|Crystal Palace FC
+EFL|2026-10-29|03:45|AFC Bournemouth|Aston Villa FC
+EFL|2026-10-30|03:45|Everton FC|Newcastle United FC
+DFB|2026-10-28|02:00|VfL Bochum|1. FSV Mainz 05
+DFB|2026-10-28|02:00|SG Sonnenhof Grossaspach|FC Augsburg
+DFB|2026-10-28|02:00|Rot-Weiss Essen|RB Leipzig
+DFB|2026-10-28|02:00|Hamburger SV|Eintracht Frankfurt
+DFB|2026-10-28|04:45|1. FC Köln|1. FC Union Berlin
+DFB|2026-10-28|04:45|Borussia Mönchengladbach|Karlsruher SC
+DFB|2026-10-28|04:45|SV Elversberg|SV Darmstadt 98
+DFB|2026-10-28|04:45|Borussia Dortmund|SV Werder Bremen
+DFB|2026-10-29|02:00|SC Freiburg|VfL Wolfsburg
+DFB|2026-10-29|02:00|Dynamo Dresden|FC Schalke 04
+DFB|2026-10-29|02:00|SC Paderborn 07|VfB Stuttgart
+DFB|2026-10-29|02:00|SSV Jeddeloh II|Hertha BSC
+DFB|2026-10-29|04:45|Holstein Kiel|TSG Hoffenheim
+DFB|2026-10-29|04:45|Hannover 96|1. FC Kaiserslautern
+DFB|2026-10-29|04:45|Bayer Leverkusen|1. FC Nürnberg
+DFB|2026-10-29|04:45|FC Bayern München|1. FC Magdeburg
+EL|2026-10-23|01:45|Ararat-Armenia|AZ Alkmaar
+EL|2026-10-23|01:45|Ferencvaros|Torreense
+EL|2026-10-23|01:45|GNK Dinamo|NEC Nijmegen
+EL|2026-10-23|01:45|Juventus FC|Rennes
+EL|2026-10-23|01:45|Lech Poznan|Sunderland AFC
+EL|2026-10-23|01:45|OFI Crete|Bayer Leverkusen
+EL|2026-10-23|01:45|Union Saint-Gilloise|Hapoel Beer-Sheva
+EL|2026-10-23|01:45|Sturm Graz|Marseille
+EL|2026-10-23|04:00|AFC Bournemouth|AC Milan
+EL|2026-10-23|04:00|Besiktas|Crystal Palace FC
+EL|2026-10-23|04:00|Celtic FC|Celta
+EL|2026-10-23|04:00|Viktoria Plzen|Levski Sofia
+EL|2026-10-23|04:00|Jagiellonia|Anderlecht
+EL|2026-10-23|04:00|Lillestrom|Real Sociedad
+EL|2026-10-23|04:00|Celje|Salzburg
+EL|2026-10-23|04:00|Olympiacos|Sparta Praha
+EL|2026-10-23|04:00|Omonia|Benfica
+EL|2026-10-23|04:00|TSG 1899 Hoffenheim|Olympique Lyonnais
+EL|2026-11-06|02:45|AC Milan|Ferencvaros
+EL|2026-11-06|02:45|Sparta Praha|AFC Bournemouth
+EL|2026-11-06|02:45|Crystal Palace FC|TSG 1899 Hoffenheim
+EL|2026-11-06|02:45|Lillestrom|Viktoria Plzen
+EL|2026-11-06|02:45|NEC Nijmegen|Omonia
+EL|2026-11-06|02:45|Levski Sofia|Jagiellonia
+EL|2026-11-06|02:45|Real Sociedad|Olympique Lyonnais
+EL|2026-11-06|02:45|Anderlecht|Salzburg
+EL|2026-11-06|02:45|Rennes|Olympiacos
+EL|2026-11-06|05:00|AZ Alkmaar|Juventus FC
+EL|2026-11-06|05:00|Bayer Leverkusen|Marseille
+EL|2026-11-06|05:00|Celtic FC|Besiktas
+EL|2026-11-06|05:00|Hapoel Beer-Sheva|OFI Crete
+EL|2026-11-06|05:00|Celta|Union Saint-Gilloise
+EL|2026-11-06|05:00|Torreense|Ararat-Armenia
+EL|2026-11-06|05:00|Sturm Graz|Celje
+EL|2026-11-06|05:00|Benfica|Lech Poznan
+EL|2026-11-06|05:00|Sunderland AFC|GNK Dinamo
+UECL|2026-10-22|23:30|Kairat Almaty|Panathinaikos
+UECL|2026-10-23|01:45|Iberia Tbilisi|Mjallby
+UECL|2026-10-23|01:45|Nordsjaelland|CSKA Sofia
+UECL|2026-10-23|01:45|Crvena Zvezda|Copenhagen
+UECL|2026-10-23|01:45|Jablonec|Brighton & Hove Albion FC
+UECL|2026-10-23|01:45|Kauno Zalgiris|Brann
+UECL|2026-10-23|01:45|Getafe|Lugano
+UECL|2026-10-23|01:45|Inter Escaldes|Universitatea Craiova
+UECL|2026-10-23|01:45|Pafos|Riga
+UECL|2026-10-23|01:45|Trabzonspor|Hearts
+UECL|2026-10-23|04:00|Ajax|Atalanta
+UECL|2026-10-23|04:00|Aarhus|Egnatia
+UECL|2026-10-23|04:00|Monaco|Freiburg
+UECL|2026-10-23|04:00|Midtjylland|Sint-Truidense VV
+UECL|2026-10-23|04:00|Thun|Hajduk Split
+UECL|2026-10-23|04:00|Borac|KuPS Kuopio
+UECL|2026-10-23|04:00|Lincoln Red Imps|Twente
+UECL|2026-10-23|04:00|Braga|Gent
+UECL|2026-11-06|02:45|Aarhus|Braga
+UECL|2026-11-06|02:45|Atalanta|Kairat Almaty
+UECL|2026-11-06|02:45|Midtjylland|Ajax
+UECL|2026-11-06|02:45|Thun|Hearts
+UECL|2026-11-06|02:45|Crvena Zvezda|Inter Escaldes
+UECL|2026-11-06|02:45|KuPS Kuopio|Gent
+UECL|2026-11-06|02:45|Lincoln Red Imps|Hajduk Split
+UECL|2026-11-06|02:45|Mjallby|Borac
+UECL|2026-11-06|02:45|Trabzonspor|Freiburg
+UECL|2026-11-06|05:00|Monaco|Nordsjaelland
+UECL|2026-11-06|05:00|Copenhagen|Iberia Tbilisi
+UECL|2026-11-06|05:00|Lugano|Kauno Zalgiris
+UECL|2026-11-06|05:00|Twente|Pafos
+UECL|2026-11-06|05:00|Getafe|Brighton & Hove Albion FC
+UECL|2026-11-06|05:00|Sint-Truidense VV|Brann
+UECL|2026-11-06|05:00|Panathinaikos|CSKA Sofia
+UECL|2026-11-06|05:00|Riga|Jablonec
+UECL|2026-11-06|05:00|Universitatea Craiova|Egnatia
+UECL|2026-11-26|23:30|Kairat Almaty|Mjallby
+UECL|2026-11-27|02:45|Ajax|Thun
+UECL|2026-11-27|02:45|Brighton & Hove Albion FC|Universitatea Craiova
+UECL|2026-11-27|02:45|Iberia Tbilisi|Getafe
+UECL|2026-11-27|02:45|Jablonec|Lugano
+UECL|2026-11-27|02:45|Kauno Zalgiris|Riga
+UECL|2026-11-27|02:45|Hearts|Monaco
+UECL|2026-11-27|02:45|Egnatia|Lincoln Red Imps
+UECL|2026-11-27|02:45|Pafos|Midtjylland
+UECL|2026-11-27|02:45|Brann|Aarhus
+UECL|2026-11-27|05:00|Nordsjaelland|Panathinaikos
+UECL|2026-11-27|05:00|Borac|Atalanta
+UECL|2026-11-27|05:00|Hajduk Split|Sint-Truidense VV
+UECL|2026-11-27|05:00|Inter Escaldes|Copenhagen
+UECL|2026-11-27|05:00|Gent|Crvena Zvezda
+UECL|2026-11-27|05:00|CSKA Sofia|Trabzonspor
+UECL|2026-11-27|05:00|Braga|KuPS Kuopio
+UECL|2026-11-27|05:00|Freiburg|Twente
+UECL|2026-12-11|00:30|Kairat Almaty|Universitatea Craiova
+UECL|2026-12-11|02:45|Copenhagen|Lugano
+UECL|2026-12-11|02:45|Iberia Tbilisi|Crvena Zvezda
+UECL|2026-12-11|02:45|Getafe|Inter Escaldes
+UECL|2026-12-11|02:45|KuPS Kuopio|CSKA Sofia
+UECL|2026-12-11|02:45|Lincoln Red Imps|Midtjylland
+UECL|2026-12-11|02:45|Riga|Atalanta
+UECL|2026-12-11|02:45|Freiburg|Panathinaikos
+UECL|2026-12-11|02:45|Brann|Braga
+UECL|2026-12-11|02:45|Trabzonspor|Jablonec
+UECL|2026-12-11|05:00|Aarhus|Twente
+UECL|2026-12-11|05:00|Brighton & Hove Albion FC|Monaco
+UECL|2026-12-11|05:00|Thun|Gent
+UECL|2026-12-11|05:00|Hearts|Borac
+UECL|2026-12-11|05:00|Hajduk Split|Nordsjaelland
+UECL|2026-12-11|05:00|Sint-Truidense VV|Ajax
+UECL|2026-12-11|05:00|Egnatia|Kauno Zalgiris
+UECL|2026-12-11|05:00|Mjallby|Pafos
+UECL|2026-12-18|05:00|Ajax|Getafe
+UECL|2026-12-18|05:00|Monaco|Lincoln Red Imps
+UECL|2026-12-18|05:00|Atalanta|Mjallby
+UECL|2026-12-18|05:00|Lugano|Sint-Truidense VV
+UECL|2026-12-18|05:00|Midtjylland|Hajduk Split
+UECL|2026-12-18|05:00|Nordsjaelland|KuPS Kuopio
+UECL|2026-12-18|05:00|Twente|Kairat Almaty
+UECL|2026-12-18|05:00|Borac|Riga
+UECL|2026-12-18|05:00|Crvena Zvezda|Trabzonspor
+UECL|2026-12-18|05:00|Jablonec|Iberia Tbilisi
+UECL|2026-12-18|05:00|Kauno Zalgiris|Freiburg
+UECL|2026-12-18|05:00|Inter Escaldes|Aarhus
+UECL|2026-12-18|05:00|Gent|Brann
+UECL|2026-12-18|05:00|Pafos|Hearts
+UECL|2026-12-18|05:00|Panathinaikos|Brighton & Hove Albion FC
+UECL|2026-12-18|05:00|CSKA Sofia|Thun
+UECL|2026-12-18|05:00|Braga|Egnatia
+UECL|2026-12-18|05:00|Universitatea Craiova|Copenhagen
+ELC|2026-11-04|04:45|Queens Park Rangers FC|Burnley FC
+ELC|2026-11-04|05:00|West Bromwich Albion FC|Southampton FC
+ELC|2026-11-04|05:00|Birmingham City FC|Millwall FC
+ELC|2026-11-05|05:00|Bristol City FC|Wolverhampton Wanderers FC
+ELC|2026-11-07|21:30|Bristol City FC|Norwich City FC
+ELC|2026-11-08|00:00|Birmingham City FC|Swansea City AFC
+ELC|2026-11-08|00:00|Blackburn Rovers FC|West Ham United FC
+ELC|2026-11-08|00:00|Cardiff City FC|Burnley FC
+ELC|2026-11-08|00:00|Preston North End FC|Southampton FC
+ELC|2026-11-08|00:00|Queens Park Rangers FC|Lincoln City FC
+ELC|2026-11-21|21:30|Millwall FC|Queens Park Rangers FC
+ELC|2026-11-21|21:30|Southampton FC|Derby County FC
+ELC|2026-11-22|21:00|Burnley FC|Blackburn Rovers FC
+ELC|2026-11-25|04:45|Bristol City FC|Wrexham FC
+ELC|2026-11-25|04:45|Norwich City FC|Queens Park Rangers FC
+ELC|2026-11-25|04:45|Sheffield United FC|Southampton FC
+ELC|2026-11-26|04:45|Burnley FC|Birmingham City FC
+ELC|2026-11-26|04:45|Watford FC|Blackburn Rovers FC
+ELC|2026-11-28|05:00|Southampton FC|Middlesbrough FC
+ELC|2026-11-28|21:30|Blackburn Rovers FC|Charlton Athletic
+ELC|2026-11-29|00:00|Birmingham City FC|Bolton Wanderers FC
+ELC|2026-11-29|00:00|Millwall FC|Burnley FC
+ELC|2026-11-29|00:00|Queens Park Rangers FC|Sheffield United FC
+ELC|2026-11-29|00:00|West Bromwich Albion FC|Bristol City FC
+KNVB|2026-10-29|02:45|Sparta Rotterdam|Fortuna Sittard
+EL|2026-11-27|02:45|Besiktas|Hapoel Beer-Sheva
+EL|2026-11-27|02:45|Salzburg|Ararat-Armenia
+EL|2026-11-27|02:45|Viktoria Plzen|Benfica
+EL|2026-11-27|02:45|GNK Dinamo|Bayer Leverkusen
+EL|2026-11-27|02:45|Olympiacos|AC Milan
+EL|2026-11-27|02:45|Marseille|Levski Sofia
+EL|2026-11-27|02:45|Union Saint-Gilloise|Lech Poznan
+EL|2026-11-27|02:45|Celta|AFC Bournemouth
+EL|2026-11-27|05:00|Sparta Praha|AZ Alkmaar
+EL|2026-11-27|05:00|Crystal Palace FC|Real Sociedad
+EL|2026-11-27|05:00|Ferencvaros|Celje
+EL|2026-11-27|05:00|Juventus FC|Omonia
+EL|2026-11-27|05:00|NEC Nijmegen|Rennes
+EL|2026-11-27|05:00|OFI Crete|Anderlecht
+EL|2026-11-27|05:00|Olympique Lyonnais|Lillestrom
+EL|2026-11-27|05:00|Torreense|Celtic FC
+EL|2026-11-27|05:00|Sunderland AFC|Jagiellonia
+EL|2026-11-27|05:00|TSG 1899 Hoffenheim|Sturm Graz
+EL|2026-12-11|02:45|AZ Alkmaar|Sturm Graz
+EL|2026-12-11|02:45|Ararat-Armenia|NEC Nijmegen
+EL|2026-12-11|02:45|Hapoel Beer-Sheva|Juventus FC
+EL|2026-12-11|02:45|Jagiellonia|Crystal Palace FC
+EL|2026-12-11|02:45|Marseille|Celta
+EL|2026-12-11|02:45|Omonia|Celtic FC
+EL|2026-12-11|02:45|Anderlecht|TSG 1899 Hoffenheim
+EL|2026-12-11|02:45|Rennes|GNK Dinamo
+EL|2026-12-11|05:00|AC Milan|Sunderland AFC
+EL|2026-12-11|05:00|AFC Bournemouth|Viktoria Plzen
+EL|2026-12-11|05:00|Bayer Leverkusen|Besiktas
+EL|2026-12-11|05:00|Salzburg|Sparta Praha
+EL|2026-12-11|05:00|Lech Poznan|Ferencvaros
+EL|2026-12-11|05:00|Celje|Olympiacos
+EL|2026-12-11|05:00|Olympique Lyonnais|Union Saint-Gilloise
+EL|2026-12-11|05:00|Levski Sofia|Lillestrom
+EL|2026-12-11|05:00|Real Sociedad|Torreense
+EL|2026-12-11|05:00|Benfica|OFI Crete
+EL|2027-01-22|02:45|Besiktas|Union Saint-Gilloise
+EL|2027-01-22|02:45|Ararat-Armenia|Celje
+EL|2027-01-22|02:45|Ferencvaros|Juventus FC
+EL|2027-01-22|02:45|Jagiellonia|Olympique Lyonnais
+EL|2027-01-22|02:45|Lillestrom|AFC Bournemouth
+EL|2027-01-22|02:45|NEC Nijmegen|Benfica
+EL|2027-01-22|02:45|Olympiacos|TSG 1899 Hoffenheim
+EL|2027-01-22|02:45|Real Sociedad|Viktoria Plzen
+EL|2027-01-22|02:45|Sturm Graz|OFI Crete
+EL|2027-01-22|05:00|AZ Alkmaar|GNK Dinamo
+EL|2027-01-22|05:00|Bayer Leverkusen|Salzburg
+EL|2027-01-22|05:00|Celtic FC|Marseille
+EL|2027-01-22|05:00|Crystal Palace FC|Sparta Praha
+EL|2027-01-22|05:00|Hapoel Beer-Sheva|Celta
+EL|2027-01-22|05:00|Lech Poznan|Torreense
+EL|2027-01-22|05:00|Levski Sofia|AC Milan
+EL|2027-01-22|05:00|Anderlecht|Sunderland AFC
+EL|2027-01-22|05:00|Rennes|Omonia
+ELC|2026-12-05|21:30|Bolton Wanderers FC|Blackburn Rovers FC
+ELC|2026-12-05|21:30|Bristol City FC|Swansea City AFC
+ELC|2026-12-06|00:00|Charlton Athletic|Birmingham City FC
+ELC|2026-12-06|00:00|Stoke City FC|Queens Park Rangers FC
+ELC|2026-12-06|00:00|Wolverhampton Wanderers FC|Southampton FC
+ELC|2026-12-06|21:00|Burnley FC|Preston North End FC
+ELC|2026-12-09|04:45|Blackburn Rovers FC|Norwich City FC
+ELC|2026-12-09|04:45|Queens Park Rangers FC|Wolverhampton Wanderers FC
+ELC|2026-12-09|05:00|Birmingham City FC|Watford FC
+ELC|2026-12-10|04:45|Derby County FC|Bristol City FC
+ELC|2026-12-10|05:00|Southampton FC|Burnley FC
+ELC|2026-12-12|05:00|Bolton Wanderers FC|Wrexham FC
+ELC|2026-12-12|21:30|Queens Park Rangers FC|Watford FC
+ELC|2026-12-13|00:00|Blackburn Rovers FC|Derby County FC
+ELC|2026-12-13|00:00|Cardiff City FC|Southampton FC
+ELC|2026-12-13|00:00|Portsmouth FC|Birmingham City FC
+ELC|2026-12-13|00:00|Sheffield United FC|Burnley FC
+ELC|2026-12-13|00:00|West Ham United FC|Bristol City FC
+ELC|2026-12-19|21:30|Watford FC|Bolton Wanderers FC
+ELC|2026-12-20|00:00|Birmingham City FC|West Ham United FC
+ELC|2026-12-20|00:00|Bristol City FC|Cardiff City FC
+ELC|2026-12-20|00:00|Burnley FC|Stoke City FC
+ELC|2026-12-20|00:00|Southampton FC|Blackburn Rovers FC
+ELC|2026-12-20|00:00|Wrexham FC|Queens Park Rangers FC
+ELC|2026-12-27|00:00|Blackburn Rovers FC|Birmingham City FC
+ELC|2026-12-27|00:00|Bolton Wanderers FC|Burnley FC
+ELC|2026-12-27|00:00|Charlton Athletic|Southampton FC
+ELC|2026-12-27|00:00|Queens Park Rangers FC|Bristol City FC
+ELC|2026-12-30|03:00|Wrexham FC|Blackburn Rovers FC
+ELC|2026-12-30|04:45|Bristol City FC|Stoke City FC
+ELC|2026-12-30|04:45|Burnley FC|Lincoln City FC
+ELC|2026-12-30|04:45|Southampton FC|West Ham United FC
+ELC|2026-12-30|04:45|Swansea City AFC|Queens Park Rangers FC
+ELC|2026-12-30|05:00|Birmingham City FC|Cardiff City FC
+BEL|2026-11-21|04:45|Cercle Brugge|KVC Westerlo
+BEL|2026-11-21|23:00|Sporting Charleroi|Sint-Truidense VV
+BEL|2026-11-29|00:00|KVC Westerlo|RAAL La Louvière
+BEL|2026-11-29|20:30|Sint-Truidense VV|KRC Genk
